@@ -49,13 +49,22 @@ const AboutSection: React.FC = () => {
 export default AboutSection
 
 const SectionContainer = styled.section`
-	padding: 10rem 0;
+	padding: 5rem 0;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		padding: 10rem 0;
+
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
+	}
 `
 
 const Container = styled.div`
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+
+	gap: 1.5rem;
 `
 
 const IluFigure = styled.figure`
@@ -67,6 +76,19 @@ const IluFigure = styled.figure`
 
 const Content = styled.div`
 	max-width: 65rem;
+
+	h2 {
+		text-align: center;
+	}
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		h2 {
+			text-align: start;
+		}
+
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
+	}
 `
 
 const ButtonsContainer = styled.div`

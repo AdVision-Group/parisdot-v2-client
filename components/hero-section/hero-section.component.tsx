@@ -76,7 +76,7 @@ const HeroSection: React.FC = () => {
 	]
 	return (
 		<React.Fragment>
-			<Ilustration>
+			{/* <Ilustration>
 				<Image
 					src={"/assets/ilu.svg"}
 					alt="ilu"
@@ -93,7 +93,7 @@ const HeroSection: React.FC = () => {
 					width={1000}
 					height={1000}
 				/>
-			</Ilustration2>
+			</Ilustration2> */}
 			<SectionContainer>
 				<HeaderP>FRANCE - PARIS</HeaderP>
 				<HeaderP>19.07 - 21.07</HeaderP>
@@ -205,17 +205,27 @@ const PartnersContainer = styled.div`
 	padding-top: 0.5rem;
 
 	figure {
-		wdith: 100%;
-		max-width: 15rem;
 		position: relative;
+	}
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
 	}
 `
 
 const Description = styled.p`
 	text-align: center;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	max-width: 60rem;
 	margin: 0 auto;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		font-size: 2rem;
+
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
+	}
 `
 
 const ButtonsContainer = styled.div`

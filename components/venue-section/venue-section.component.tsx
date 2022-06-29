@@ -37,7 +37,7 @@ const VenueSection: React.FC = () => {
 					<Image
 						src="/assets/venue-section/ilu.svg"
 						alt="ilu"
-						layout="fixed"
+						layout="responsive"
 						width={425}
 						height={330}
 						objectFit="contain"
@@ -51,20 +51,49 @@ const VenueSection: React.FC = () => {
 export default VenueSection
 
 const SectionContainer = styled.section`
-	padding: 10rem 0;
+	padding: 5rem 0 0;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+			padding: 10rem 0;
+			@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+			}
+		}
+	}
 `
 
 const Container = styled.div`
 	display: flex;
 	justify-content: space-evenly;
+	flex-direction: column-reverse;
+	align-items: center;
 	flex-wrap: wrap;
+	gap: 3rem;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+			@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+				gap: 1.5rem;
+				flex-direction: row;
+			}
+		}
+	}
 `
 
 const IluFigure = styled.figure`
 	position: relative;
-	/* width: 100%;
-	max-width: 26rem; */
+	width: 100%;
+
+	max-width: 42rem;
 	justify-self: center;
+	/* margin: 1.5rem; */
+
+	height: auto;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
+	}
 `
 
 const Content = styled.div`

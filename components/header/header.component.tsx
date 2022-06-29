@@ -43,12 +43,23 @@ const HeaderContainer = styled.header`
 	backdrop-filter: blur(2rem);
 
 	nav {
+		display: none;
+
 		ul {
 			display: flex;
 			gap: 1.5rem;
 			list-style: none;
 			margin: 0;
 			padding: 0;
+		}
+	}
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		nav {
+			display: block;
+		}
+
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
 		}
 	}
 `

@@ -56,7 +56,7 @@ export const ButtonContainer = styled(motion.button)<IButtonProps>`
 	color: ${({ theme }) => theme.color.buttonColor};
 	min-width: 5rem;
 	width: ${({ width }) => (width ? width : "unset")};
-	padding: 2rem 6rem;
+	padding: 1rem 1.7rem;
 	font-size: 1.7rem;
 	font-family: inherit;
 	font-weight: 400;
@@ -74,5 +74,12 @@ export const ButtonContainer = styled(motion.button)<IButtonProps>`
 	&:disabled {
 		position: relative;
 		cursor: default;
+	}
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		padding: 1.5rem 4rem;
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+			padding: 2rem 6rem;
+		}
 	}
 `

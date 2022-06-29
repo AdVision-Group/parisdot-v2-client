@@ -10,7 +10,7 @@ const FooterSection: React.FC = () => {
 		<SectionContainer>
 			<figure>
 				<Image
-					src="/assets/footer-section/see-you-there.svg"
+					src="/assets/footer-section/see-you-there-v2.svg"
 					alt="see you there"
 					width={100}
 					height={100}
