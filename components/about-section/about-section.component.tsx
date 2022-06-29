@@ -11,6 +11,15 @@ import Image from "next/image"
 const AboutSection: React.FC = () => {
 	return (
 		<SectionContainer id="about">
+			<Ilustration>
+				<Image
+					src={"/assets/ilustrations/right_middle.png"}
+					alt="ilu"
+					layout="responsive"
+					width={577}
+					height={792}
+				/>
+			</Ilustration>
 			<Container>
 				<IluFigure>
 					<Image
@@ -48,6 +57,14 @@ const AboutSection: React.FC = () => {
 
 export default AboutSection
 
+const Ilustration = styled.figure`
+	position: absolute;
+	right: 0;
+	z-index: -1;
+	width: 35%;
+	height: auto;
+`
+
 const SectionContainer = styled.section`
 	padding: 5rem 0;
 
@@ -55,6 +72,7 @@ const SectionContainer = styled.section`
 		padding: 10rem 0;
 
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+			padding: 15rem 0 10rem;
 		}
 	}
 `

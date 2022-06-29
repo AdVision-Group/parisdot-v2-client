@@ -26,14 +26,14 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #041222;
     color: #fff;
     width: 100%;
+    /* max-width: 150rem; */
     /* width: 100%;
     height: 100vh; */
   }
 
   main {
-    max-width: 120rem;
-    margin: 10rem auto 0;
-    padding: 0 1.5rem;
+    position: relative;
+    padding: 10rem 1.5rem 0;
     overflow: hidden;
 
   }

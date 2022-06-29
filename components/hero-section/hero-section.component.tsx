@@ -76,24 +76,25 @@ const HeroSection: React.FC = () => {
 	]
 	return (
 		<React.Fragment>
-			{/* <Ilustration>
+			<Ilustration>
 				<Image
-					src={"/assets/ilu.svg"}
+					src={"/assets/ilustrations/left_top.png"}
 					alt="ilu"
-					layout="fixed"
-					width={1000}
-					height={1000}
+					layout="responsive"
+					width={638}
+					height={1654}
 				/>
 			</Ilustration>
+
 			<Ilustration2>
 				<Image
-					src={"/assets/ilu-2.svg"}
+					src={"/assets/ilustrations/right_top.png"}
 					alt="ilu"
-					layout="fixed"
-					width={1000}
-					height={1000}
+					layout="responsive"
+					width={577}
+					height={792}
 				/>
-			</Ilustration2> */}
+			</Ilustration2>
 			<SectionContainer>
 				<HeaderP>FRANCE - PARIS</HeaderP>
 				<HeaderP>19.07 - 21.07</HeaderP>
@@ -169,13 +170,19 @@ export default HeroSection
 
 const Ilustration = styled.figure`
 	position: absolute;
-	top: -40rem;
-	left: -40rem;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 35%;
+	height: auto;
 `
 const Ilustration2 = styled.figure`
 	position: absolute;
-	top: -40rem;
-	right: -40rem;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	width: 35%;
+	height: auto;
 `
 
 const SectionContainer = styled.section``

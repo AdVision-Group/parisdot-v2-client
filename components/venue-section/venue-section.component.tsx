@@ -11,6 +11,15 @@ import Image from "next/image"
 const VenueSection: React.FC = () => {
 	return (
 		<SectionContainer>
+			<Ilustration>
+				<Image
+					src={"/assets/ilustrations/left_middle.png"}
+					alt="ilu"
+					layout="responsive"
+					width={577}
+					height={889}
+				/>
+			</Ilustration>
 			<Container>
 				<Content>
 					<Title>VENUE</Title>
@@ -50,12 +59,20 @@ const VenueSection: React.FC = () => {
 
 export default VenueSection
 
+const Ilustration = styled.figure`
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	width: 35%;
+	height: auto;
+`
+
 const SectionContainer = styled.section`
 	padding: 5rem 0 0;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
-			padding: 10rem 0;
+			padding: 10rem 0 0;
 			@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
 			}
 		}
