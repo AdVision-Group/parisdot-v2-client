@@ -47,10 +47,22 @@ const AboutSection: React.FC = () => {
 					</Paragraph>
 
 					<ButtonsContainer>
-						<Button rounded>Buy tickets</Button>
-						<Button outline rounded>
-							Apply to speak
-						</Button>
+						<a
+							rel="noopener noreferrer"
+							target="_blank"
+							href="https://www.eventbrite.com/e/parisdotcomm-tickets-372008245677"
+						>
+							<Button rounded>Buy tickets</Button>
+						</a>
+						<a
+							rel="noopener noreferrer"
+							target="_blank"
+							href="https://xkmlgcptw4h.typeform.com/to/WgZTsjqB"
+						>
+							<Button outline rounded>
+								Apply to speak
+							</Button>
+						</a>
 					</ButtonsContainer>
 				</Content>
 			</Container>
@@ -69,11 +81,10 @@ const Ilustration = styled.figure`
 `
 
 const SectionContainer = styled.section`
-	padding: 5rem 0;
+	/* padding: 5rem 0; */
+	padding: 10rem 0;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-		padding: 10rem 0;
-
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
 			padding: 15rem 0 10rem;
 		}
@@ -85,7 +96,15 @@ const Container = styled.div`
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 
-	gap: 1.5rem;
+	gap: 3rem;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+			@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+				gap: 1.5rem;
+			}
+		}
+	}
 `
 
 const IluFigure = styled.figure`
@@ -106,15 +125,7 @@ const IluFigure = styled.figure`
 const Content = styled.div`
 	max-width: 65rem;
 
-	h2 {
-		text-align: center;
-	}
-
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-		h2 {
-			text-align: start;
-		}
-
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
 		}
 	}
@@ -123,6 +134,28 @@ const Content = styled.div`
 const ButtonsContainer = styled.div`
 	display: flex;
 	/* justify-content: center; */
+	flex-direction: column;
 	gap: 2rem;
 	margin-top: 4rem;
+
+	a {
+		width: 100%;
+		display: block;
+		button {
+			width: 100%;
+		}
+	}
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		flex-direction: row;
+		a {
+			width: unset;
+			display: block;
+			button {
+				width: initial;
+			}
+		}
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
+	}
 `

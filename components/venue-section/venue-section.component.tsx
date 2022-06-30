@@ -71,11 +71,10 @@ const Ilustration = styled.figure`
 `
 
 const SectionContainer = styled.section`
-	padding: 5rem 0 0;
+	padding: 5rem 0 10rem;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
-			padding: 10rem 0 0;
 			@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
 			}
 		}
@@ -106,7 +105,6 @@ const IluFigure = styled.figure`
 
 	max-width: 42rem;
 	justify-self: center;
-	/* margin: 1.5rem; */
 
 	height: auto;
 
@@ -125,4 +123,24 @@ const ButtonsContainer = styled.div`
 	/* justify-content: center; */
 	gap: 2rem;
 	margin-top: 4rem;
+
+	a {
+		width: 100%;
+		display: block;
+		button {
+			width: 100%;
+		}
+	}
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		a {
+			width: unset;
+			display: block;
+			button {
+				width: initial;
+			}
+		}
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
+	}
 `

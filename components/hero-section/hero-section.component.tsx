@@ -259,6 +259,28 @@ const Description = styled.p`
 const ButtonsContainer = styled.div`
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	gap: 2rem;
 	margin-top: 4rem;
+
+	a {
+		width: 100%;
+		display: block;
+		button {
+			width: 100%;
+		}
+	}
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		flex-direction: row;
+		a {
+			width: unset;
+			display: block;
+			button {
+				width: initial;
+			}
+		}
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
+	}
 `

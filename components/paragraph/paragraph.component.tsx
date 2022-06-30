@@ -16,8 +16,10 @@ const P = styled.p`
 	font-size: 1.6rem;
 	max-width: 60rem;
 	margin-bottom: 2rem;
+	text-align: center;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		text-align: start;
 		font-size: 2rem;
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
 		}
