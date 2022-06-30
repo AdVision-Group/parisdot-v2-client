@@ -233,8 +233,14 @@ const Container = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	max-width: 120rem;
-	padding: 0.8rem 1.5rem;
+	padding: 1.4rem 1.5rem;
 	margin: 0 auto;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+			padding: 0.8rem 1.5rem;
+		}
+	}
 `
 
 const LogoContainer = styled.figure`
