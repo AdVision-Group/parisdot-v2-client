@@ -11,7 +11,7 @@ const FooterSection: React.FC = () => {
 			<SectionContainer>
 				<figure>
 					<Image
-						src="/assets/footer-section/see-you-there-v2-o.svg"
+						src="/assets/footer-section/see-you-there-v2-o.png"
 						alt="see you there"
 						width={100}
 						height={100}
@@ -70,10 +70,11 @@ const Ilustration2 = styled.figure`
 
 const SectionContainer = styled.section`
 	position: relative;
+	margin-bottom: -5rem;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
-			margin-bottom: -10rem;
+			margin-bottom: -15rem;
 		}
 	}
 `
