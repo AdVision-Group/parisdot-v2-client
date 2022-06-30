@@ -107,10 +107,10 @@ const Header: React.FC = () => {
 						}}
 					>
 						<ul>
-							<li className="link">
+							<li className="link" onClick={toggleMobileNav}>
 								<Link href={"/#about"}>About</Link>
 							</li>
-							<li className="link">
+							<li className="link" onClick={toggleMobileNav}>
 								<Link href={"/#venue"}>Venue</Link>
 							</li>
 						</ul>
