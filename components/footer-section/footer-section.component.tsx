@@ -21,6 +21,7 @@ const FooterSection: React.FC = () => {
 						delay: 0.6,
 						duration: 0.6,
 					}}
+					viewport={{ once: true }}
 				>
 					<Image
 						src="/assets/footer-section/see-you-there-v2-o.png"

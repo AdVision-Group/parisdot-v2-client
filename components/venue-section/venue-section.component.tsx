@@ -37,6 +37,7 @@ const VenueSection: React.FC = () => {
 						duration: 0.6,
 						delay: 0.6,
 					}}
+					viewport={{ once: true }}
 				>
 					<Title>VENUE - ARAB WORLD INSTITUTE</Title>
 					<Paragraph>
@@ -70,6 +71,7 @@ const VenueSection: React.FC = () => {
 					transition={{
 						duration: 0.6,
 					}}
+					viewport={{ once: true }}
 				>
 					<Image
 						src="/assets/venue-section/ilu-o.png"

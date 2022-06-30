@@ -36,6 +36,7 @@ const AboutSection: React.FC = () => {
 					transition={{
 						duration: 0.6,
 					}}
+					viewport={{ once: true }}
 				>
 					<Image
 						src="/assets/about-section/ilu-v2.svg"
@@ -60,6 +61,7 @@ const AboutSection: React.FC = () => {
 						duration: 0.6,
 						delay: 0.6,
 					}}
+					viewport={{ once: true }}
 				>
 					<Title>WHAT IS PARISDOT?</Title>
 					<Paragraph>

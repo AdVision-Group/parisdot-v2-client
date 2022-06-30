@@ -233,7 +233,7 @@ const Container = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	max-width: 120rem;
-	padding: 0.5rem 1.5rem;
+	padding: 0.8rem 1.5rem;
 	margin: 0 auto;
 `
 
@@ -262,7 +262,7 @@ const ToggleButton = styled.button<{ isOpen: boolean }>`
 	border: none;
 	width: 5rem;
 	height: 5rem;
-	border: 3px solid #fff;
+	border: 1px solid #fff;
 	border-radius: 50%;
 
 	position: relative;
@@ -276,8 +276,8 @@ const ToggleButton = styled.button<{ isOpen: boolean }>`
 			props.isOpen
 				? css`
 						&:nth-child(1) {
-							top: 2.1rem;
-							left: 1.3rem;
+							top: 2.3rem;
+							left: 1.4rem;
 							transform: rotate(45deg);
 						}
 						&:nth-child(2) {
@@ -285,31 +285,31 @@ const ToggleButton = styled.button<{ isOpen: boolean }>`
 							left: 1.6rem;
 						}
 						&:nth-child(3) {
-							bottom: 2.1rem;
-							left: 1.3rem;
+							bottom: 2.3rem;
+							left: 1.4rem;
 							transform: rotate(-45deg);
 						}
 				  `
 				: css`
 						&:nth-child(1) {
 							top: 1.5rem;
-							left: 1.3rem;
+							left: 1.4rem;
 						}
 						&:nth-child(2) {
 							top: 50%;
-							left: 1.3rem;
+							left: 1.4rem;
 
 							transform: translateY(-50%);
 						}
 						&:nth-child(3) {
 							bottom: 1.5rem;
-							left: 1.3rem;
+							left: 1.4rem;
 						}
 				  `}
 	}
 
 	&:hover {
-		border: 3px solid ${({ theme }) => theme.fonts.primary};
+		border: 1px solid ${({ theme }) => theme.fonts.primary};
 
 		div {
 			background-color: ${({ theme }) => theme.fonts.primary};
