@@ -106,9 +106,49 @@ const HeroSection: React.FC = () => {
 				/>
 			</Ilustration2>
 			<SectionContainer>
-				<HeaderP>PARIS, FRANCE - ARAB WORLD INSTITUTE</HeaderP>
-				<HeaderP>19.07 - 21.07</HeaderP>
-				<TitleFigure>
+				<HeaderP
+					initial={{
+						y: -200,
+						opacity: 0,
+					}}
+					animate={{
+						y: 0,
+						opacity: 1,
+					}}
+					transition={{
+						duration: 0.4,
+						delay: 0.2,
+					}}
+				>
+					PARIS, FRANCE - ARAB WORLD INSTITUTE
+				</HeaderP>
+				<HeaderP
+					initial={{
+						y: -200,
+						opacity: 0,
+					}}
+					animate={{
+						y: 0,
+						opacity: 1,
+					}}
+					transition={{
+						duration: 0.4,
+					}}
+				>
+					19.07 - 21.07
+				</HeaderP>
+				<TitleFigure
+					initial={{
+						opacity: 0,
+					}}
+					animate={{
+						opacity: 1,
+					}}
+					transition={{
+						duration: 0.4,
+						delay: 0.6,
+					}}
+				>
 					<Image
 						src={"/assets/hero-section/conf-w-shop-v2-o.png"}
 						alt="ilu"
@@ -120,12 +160,36 @@ const HeroSection: React.FC = () => {
 						// height={20}
 					/>
 				</TitleFigure>
-				<Description>
+				<Description
+					initial={{
+						y: 200,
+						opacity: 0,
+					}}
+					animate={{
+						y: 0,
+						opacity: 1,
+					}}
+					transition={{
+						duration: 0.4,
+						delay: 0.8,
+					}}
+				>
 					3 days of conference and workshops sessions organized by some of the
 					leading projects of the Polkadot and Kusama ecosystems.
 				</Description>
 
-				<ButtonsContainer>
+				<ButtonsContainer
+					initial={{
+						opacity: 0,
+					}}
+					animate={{
+						opacity: 1,
+					}}
+					transition={{
+						duration: 0.6,
+						delay: 1,
+					}}
+				>
 					<a
 						rel="noopener noreferrer"
 						target="_blank"
@@ -144,7 +208,18 @@ const HeroSection: React.FC = () => {
 					</a>
 				</ButtonsContainer>
 
-				<PartnersContainer>
+				<PartnersContainer
+					initial={{
+						opacity: 0,
+					}}
+					animate={{
+						opacity: 1,
+					}}
+					transition={{
+						duration: 0.8,
+						delay: 1.6,
+					}}
+				>
 					{partners.map((partner, idx) => (
 						<a
 							key={idx}
@@ -208,19 +283,19 @@ const SectionContainer = styled.section`
 	margin: 0 auto;
 `
 
-const HeaderP = styled.p`
+const HeaderP = styled(motion.p)`
 	font-size: 1.9rem;
 	font-weight: 1000;
 	text-align: center;
 `
 
-const TitleFigure = styled.figure`
+const TitleFigure = styled(motion.figure)`
 	position: relative;
 	max-width: 79rem;
 	margin: 0 auto;
 `
 
-const PartnersContainer = styled.div`
+const PartnersContainer = styled(motion.div)`
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
@@ -242,7 +317,7 @@ const PartnersContainer = styled.div`
 	}
 `
 
-const Description = styled.p`
+const Description = styled(motion.p)`
 	text-align: center;
 	font-size: 1.6rem;
 	max-width: 60rem;
@@ -256,7 +331,7 @@ const Description = styled.p`
 	}
 `
 
-const ButtonsContainer = styled.div`
+const ButtonsContainer = styled(motion.div)`
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
