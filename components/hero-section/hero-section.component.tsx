@@ -20,9 +20,11 @@ const HeroSection: React.FC = () => {
 			height: 40,
 		},
 		{
-			src: "/assets/partners/hdx.png",
-			alt: "hydra logo",
-			href: "https://hydradx.io/",
+			src: "/assets/partners/Parity-v3.png",
+			alt: "parity logo",
+			href: "https://www.parity.io/",
+			// width: 90,
+			// height: 50,
 		},
 		{
 			src: "/assets/partners/logion.png",
@@ -41,11 +43,9 @@ const HeroSection: React.FC = () => {
 			href: "https://moonbeam.network/",
 		},
 		{
-			src: "/assets/partners/Parity-v3.png",
-			alt: "parity logo",
-			href: "https://www.parity.io/",
-			// width: 90,
-			// height: 50,
+			src: "/assets/partners/hdx.png",
+			alt: "hydra logo",
+			href: "https://hydradx.io/",
 		},
 		// {
 		// 	src: "/assets/partners-v2/logos-v2/shiden.png",
@@ -210,47 +210,63 @@ const HeroSection: React.FC = () => {
 					</a>
 				</ButtonsContainer>
 
-				<PartnersContainer
-					initial={{
-						opacity: 0,
-					}}
-					animate={{
-						opacity: 1,
-					}}
-					transition={{
-						duration: 1.2,
-						delay: 2.8,
-					}}
-				>
-					{partners.map((partner, idx) => (
-						<a
-							key={idx}
-							href={partner.href}
-							rel="noopener noreferrer"
-							target="_blank"
-						>
-							<motion.figure
-								whileHover={{
-									scale: 1.05,
-								}}
-								whileTap={{
-									scale: 0.97,
-								}}
+				<div>
+					<PartnersContainer
+						initial={{
+							opacity: 0,
+						}}
+						animate={{
+							opacity: 1,
+						}}
+						transition={{
+							duration: 1.2,
+							delay: 2.8,
+						}}
+					>
+						{partners.map((partner, idx) => (
+							<a
+								key={idx}
+								href={partner.href}
+								rel="noopener noreferrer"
+								target="_blank"
 							>
-								<Image
-									src={partner.src}
-									alt="ilu"
-									effect="blur"
-									style={{
-										objectFit: "contain",
+								<motion.figure
+									whileHover={{
+										scale: 1.05,
 									}}
-									width={partner.width || 100}
-									height={partner.height || 40}
-								/>
-							</motion.figure>
-						</a>
-					))}
-				</PartnersContainer>
+									whileTap={{
+										scale: 0.97,
+									}}
+								>
+									<Image
+										src={partner.src}
+										alt="ilu"
+										effect="blur"
+										style={{
+											objectFit: "contain",
+										}}
+										width={partner.width || 100}
+										height={partner.height || 40}
+									/>
+								</motion.figure>
+							</a>
+						))}
+					</PartnersContainer>
+					<MorePartners
+						initial={{
+							opacity: 0,
+						}}
+						animate={{
+							opacity: 1,
+						}}
+						transition={{
+							duration: 1.2,
+							delay: 4,
+						}}
+					>
+						more sponsors tba
+					</MorePartners>
+				</div>
 			</SectionContainer>
 		</React.Fragment>
 	)
@@ -360,4 +376,11 @@ const ButtonsContainer = styled(motion.div)`
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
 		}
 	}
+`
+
+const MorePartners = styled(motion.p)`
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	margin-top: 2.5rem;
 `
