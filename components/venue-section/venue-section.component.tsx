@@ -1,6 +1,7 @@
 // Utils
 import React from "react"
 import styled from "styled-components"
+import { motion } from "framer-motion"
 
 // Components
 import Title from "../title/title.component"
@@ -23,7 +24,20 @@ const VenueSection: React.FC = () => {
 				/>
 			</Ilustration>
 			<Container>
-				<Content>
+				<Content
+					initial={{
+						x: -200,
+						opacity: 0,
+					}}
+					whileInView={{
+						x: 0,
+						opacity: 1,
+					}}
+					transition={{
+						duration: 0.4,
+						delay: 0.4,
+					}}
+				>
 					<Title>VENUE - ARAB WORLD INSTITUTE</Title>
 					<Paragraph>
 						was designed to create strong and durable cultural ties while
@@ -44,7 +58,19 @@ const VenueSection: React.FC = () => {
 						</a>
 					</ButtonsContainer>
 				</Content>
-				<IluFigure>
+				<IluFigure
+					initial={{
+						y: 200,
+						opacity: 0,
+					}}
+					whileInView={{
+						y: 0,
+						opacity: 1,
+					}}
+					transition={{
+						duration: 0.4,
+					}}
+				>
 					<Image
 						src="/assets/venue-section/ilu-o.png"
 						alt="ilu"
@@ -107,7 +133,7 @@ const Container = styled.div`
 	}
 `
 
-const IluFigure = styled.figure`
+const IluFigure = styled(motion.figure)`
 	position: relative;
 	width: 100%;
 
@@ -122,7 +148,7 @@ const IluFigure = styled.figure`
 	}
 `
 
-const Content = styled.div`
+const Content = styled(motion.div)`
 	max-width: 65rem;
 `
 

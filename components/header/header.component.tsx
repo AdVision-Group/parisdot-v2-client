@@ -1,5 +1,5 @@
 // Utils
-import React, { useRef } from "react"
+import React from "react"
 import styled, { css } from "styled-components"
 import { motion, AnimatePresence } from "framer-motion"
 
@@ -14,10 +14,7 @@ import { useBoolean } from "usehooks-ts"
 // Icons
 import { FaTwitter, FaDiscord } from "react-icons/fa"
 
-const itemIds = [0, 1, 2, 3, 4]
-
 const Header: React.FC = () => {
-	const containerRef = useRef(null)
 	const { value: showMobileNav, toggle: toggleMobileNav } = useBoolean(false)
 
 	return (

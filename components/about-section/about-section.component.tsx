@@ -1,6 +1,7 @@
 //  Utils
 import React from "react"
 import styled from "styled-components"
+import { motion } from "framer-motion"
 
 // Components
 import Title from "../title/title.component"
@@ -23,7 +24,19 @@ const AboutSection: React.FC = () => {
 				/>
 			</Ilustration>
 			<Container>
-				<IluFigure>
+				<IluFigure
+					initial={{
+						y: 200,
+						opacity: 0,
+					}}
+					whileInView={{
+						y: 0,
+						opacity: 1,
+					}}
+					transition={{
+						duration: 0.4,
+					}}
+				>
 					<Image
 						src="/assets/about-section/ilu-v2.svg"
 						alt="ilu"
@@ -34,7 +47,20 @@ const AboutSection: React.FC = () => {
 						width={"100%"}
 					/>
 				</IluFigure>
-				<Content>
+				<Content
+					initial={{
+						x: 200,
+						opacity: 0,
+					}}
+					whileInView={{
+						x: 0,
+						opacity: 1,
+					}}
+					transition={{
+						duration: 0.4,
+						delay: 0.4,
+					}}
+				>
 					<Title>WHAT IS PARISDOT?</Title>
 					<Paragraph>
 						3 days of conference and workshops sessions organized by some of the
@@ -113,7 +139,7 @@ const Container = styled.div`
 	}
 `
 
-const IluFigure = styled.figure`
+const IluFigure = styled(motion.figure)`
 	position: relative;
 	width: 50%;
 	/* 
@@ -128,7 +154,7 @@ const IluFigure = styled.figure`
 	}
 `
 
-const Content = styled.div`
+const Content = styled(motion.div)`
 	max-width: 65rem;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
