@@ -34,8 +34,8 @@ const VenueSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: 0.4,
-						delay: 0.4,
+						duration: 0.6,
+						delay: 0.6,
 					}}
 				>
 					<Title>VENUE - ARAB WORLD INSTITUTE</Title>
@@ -68,7 +68,7 @@ const VenueSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: 0.4,
+						duration: 0.6,
 					}}
 				>
 					<Image

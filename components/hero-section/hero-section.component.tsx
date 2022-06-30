@@ -8,6 +8,8 @@ import { motion } from "framer-motion"
 import Image from "../image/image.component"
 import Button from "../button/button.component"
 
+const DURATION = 0.6
+
 const HeroSection: React.FC = () => {
 	const partners = [
 		{
@@ -116,8 +118,8 @@ const HeroSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: 0.4,
-						delay: 0.2,
+						duration: DURATION,
+						delay: 0.4,
 					}}
 				>
 					PARIS, FRANCE - ARAB WORLD INSTITUTE
@@ -132,7 +134,7 @@ const HeroSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: 0.4,
+						duration: DURATION,
 					}}
 				>
 					19.07 - 21.07
@@ -145,8 +147,8 @@ const HeroSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: 0.4,
-						delay: 0.6,
+						duration: DURATION,
+						delay: 1,
 					}}
 				>
 					<Image
@@ -170,8 +172,8 @@ const HeroSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: 0.4,
-						delay: 0.8,
+						duration: DURATION,
+						delay: 1.6,
 					}}
 				>
 					3 days of conference and workshops sessions organized by some of the
@@ -186,8 +188,8 @@ const HeroSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: 0.6,
-						delay: 1,
+						duration: 0.8,
+						delay: 2.2,
 					}}
 				>
 					<a
@@ -216,8 +218,8 @@ const HeroSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: 0.8,
-						delay: 1.6,
+						duration: 1.2,
+						delay: 2.8,
 					}}
 				>
 					{partners.map((partner, idx) => (

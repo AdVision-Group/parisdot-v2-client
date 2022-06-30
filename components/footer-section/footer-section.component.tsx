@@ -10,7 +10,18 @@ const FooterSection: React.FC = () => {
 	return (
 		<React.Fragment>
 			<SectionContainer>
-				<figure>
+				<motion.figure
+					initial={{
+						opacity: 0,
+					}}
+					whileInView={{
+						opacity: 1,
+					}}
+					transition={{
+						delay: 0.6,
+						duration: 0.6,
+					}}
+				>
 					<Image
 						src="/assets/footer-section/see-you-there-v2-o.png"
 						alt="see you there"
@@ -20,7 +31,7 @@ const FooterSection: React.FC = () => {
 						}}
 						width={"100%"}
 					/>
-				</figure>
+				</motion.figure>
 			</SectionContainer>
 			<Ilustration>
 				<Image
