@@ -13,7 +13,13 @@ const Paragraph: React.FC<IProps> = ({ children }) => {
 export default Paragraph
 
 const P = styled.p`
-	font-size: 2rem;
+	font-size: 1.6rem;
 	max-width: 60rem;
 	margin-bottom: 2rem;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		font-size: 2rem;
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
+	}
 `
