@@ -79,7 +79,7 @@ const Ilustration = styled.figure`
 	width: 35%;
 	height: auto;
 
-	@media all and (min-width: ${({ theme }) => theme.breakpoints.xl}) {
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.xxl}) {
 		display: none;
 	}
 `

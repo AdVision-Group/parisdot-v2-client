@@ -1,7 +1,7 @@
 export type ThemeType = typeof light // This is the type definition for my theme object.
 
 export const light = {
-	color: {
+	colors: {
 		bodyBackgroundColor: "#041222",
 		blue: "#0086FF",
 		pink: "#FF008C",
@@ -9,6 +9,7 @@ export const light = {
 			"linear-gradient(90deg, rgba(255,0,140,1) 0%, rgba(0,134,255,1) 100%);",
 		buttonBorderColor: "#fff",
 		buttonColor: "#fff",
+		linkColor: "#fff",
 	},
 	fonts: {
 		primary: "#DDDDDD",
