@@ -10,7 +10,7 @@ import Button from "../button/button.component"
 
 const VenueSection: React.FC = () => {
 	return (
-		<SectionContainer>
+		<SectionContainer id="venue">
 			<Ilustration>
 				<Image
 					src={"/assets/ilustrations/left_middle-o.png"}
@@ -24,7 +24,7 @@ const VenueSection: React.FC = () => {
 			</Ilustration>
 			<Container>
 				<Content>
-					<Title>VENUE</Title>
+					<Title>VENUE - ARAB WORLD INSTITUTE</Title>
 					<Paragraph>
 						was designed to create strong and durable cultural ties while
 						cultivating constructive dialogue between the Arab World, France,
@@ -68,10 +68,17 @@ const Ilustration = styled.figure`
 	z-index: -1;
 	width: 35%;
 	height: auto;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.xl}) {
+		display: none;
+	}
 `
 
 const SectionContainer = styled.section`
-	padding: 5rem 0 10rem;
+	padding: 5rem 1.5rem 10rem;
+
+	max-width: 120rem;
+	margin: 0 auto;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
@@ -86,7 +93,7 @@ const Container = styled.div`
 	justify-content: space-evenly;
 	flex-direction: column-reverse;
 	align-items: center;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	gap: 3rem;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {

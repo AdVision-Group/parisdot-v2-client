@@ -78,11 +78,17 @@ const Ilustration = styled.figure`
 	z-index: -1;
 	width: 35%;
 	height: auto;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.xl}) {
+		display: none;
+	}
 `
 
 const SectionContainer = styled.section`
 	/* padding: 5rem 0; */
-	padding: 10rem 0;
+	padding: 10rem 1.5rem;
+	max-width: 120rem;
+	margin: 0 auto;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {

@@ -68,7 +68,9 @@ const Ilustration2 = styled.figure`
 `
 
 const SectionContainer = styled.section`
-	position: relative;
+	padding: 0 1.5rem;
+	max-width: 120rem;
+	margin: 0 auto;
 	/* margin-bottom: -5rem; */
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {

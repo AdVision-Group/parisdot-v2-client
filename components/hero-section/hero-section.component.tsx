@@ -18,12 +18,6 @@ const HeroSection: React.FC = () => {
 			height: 40,
 		},
 		{
-			src: "/assets/partners/dot_validator_alliance.png",
-			alt: "dot validator alliance logo",
-			href: "https://dotvalidators.org/",
-			width: 50,
-		},
-		{
 			src: "/assets/partners/hdx.png",
 			alt: "hydra logo",
 			href: "https://hydradx.io/",
@@ -45,7 +39,7 @@ const HeroSection: React.FC = () => {
 			href: "https://moonbeam.network/",
 		},
 		{
-			src: "/assets/partners/Parity-v2.png",
+			src: "/assets/partners/Parity-v3.png",
 			alt: "parity logo",
 			href: "https://www.parity.io/",
 			// width: 90,
@@ -68,6 +62,12 @@ const HeroSection: React.FC = () => {
 			alt: "unique logo",
 			href: "https://unique.network/",
 			// width: 90,
+		},
+		{
+			src: "/assets/partners/dot_validator_alliance.png",
+			alt: "dot validator alliance logo",
+			href: "https://dotvalidators.org/",
+			width: 50,
 		},
 
 		{
@@ -106,7 +106,7 @@ const HeroSection: React.FC = () => {
 				/>
 			</Ilustration2>
 			<SectionContainer>
-				<HeaderP>FRANCE - PARIS</HeaderP>
+				<HeaderP>PARIS, FRANCE - ARAB WORLD INSTITUTE</HeaderP>
 				<HeaderP>19.07 - 21.07</HeaderP>
 				<TitleFigure>
 					<Image

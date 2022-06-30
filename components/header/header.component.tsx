@@ -3,7 +3,8 @@ import React from "react"
 import styled from "styled-components"
 
 // Components
-import Image from "next/image"
+// import Image from "next/image"
+import Image from "../image/image.component"
 
 const Header: React.FC = () => {
 	return (
@@ -13,17 +14,21 @@ const Header: React.FC = () => {
 					<Image
 						src="/assets/parisdot_logo.svg"
 						alt="ParisDOT Logo"
-						layout="fixed"
-						width={200}
-						height={60}
+						effect="blur"
+						style={{
+							width: "100%",
+							height: "100%",
+							marginTop: "0.7rem",
+							objectFit: "contain",
+							objectPosition: "center",
+						}}
 					/>
 				</LogoContainer>
 
 				<nav>
 					<ul>
-						<li>Home</li>
 						<li>About</li>
-						<li>Contact</li>
+						<li>Venue</li>
 					</ul>
 				</nav>
 			</Container>
@@ -74,7 +79,15 @@ const Container = styled.div`
 `
 
 const LogoContainer = styled.figure`
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	max-width: 17rem;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+			max-width: 25rem;
+		}
+	}
 `
