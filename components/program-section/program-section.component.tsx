@@ -275,17 +275,17 @@ const ProgramSection: React.FC = () => {
 
 	return (
 		<SectionContainer id="program">
-			{/* <TitleFigure
-			// initial={{
-			// 	opacity: 0,
-			// }}
-			// animate={{
-			// 	opacity: 1,
-			// }}
-			// transition={{
-			// 	duration: DURATION,
-			// 	delay: 1,
-			// }}
+			<TitleFigure
+				initial={{
+					opacity: 0,
+				}}
+				whileInView={{
+					opacity: 1,
+				}}
+				transition={{
+					duration: 0.6,
+					// delay: 0.5,
+				}}
 			>
 				<Image
 					src={"/assets/program-section/program.png"}
@@ -297,7 +297,7 @@ const ProgramSection: React.FC = () => {
 					width={"100%"}
 					// height={20}
 				/>
-			</TitleFigure> */}
+			</TitleFigure>
 
 			<div>
 				{program.map((day, idx) => (
@@ -332,5 +332,5 @@ const SectionContainer = styled.section`
 const TitleFigure = styled(motion.figure)`
 	position: relative;
 	max-width: 50rem;
-	margin: 0 auto 3rem;
+	margin: 0 auto 5rem;
 `
