@@ -42,7 +42,27 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 					</FlexContainer>
 					<AnimatePresence>
 						{showContent && (
-							<Content>
+							<Content
+								id={item.id.toString()}
+								key={item.id}
+								initial="collapsed"
+								animate={showContent ? "open" : "collapsed"}
+								exit={"collapsed"}
+								variants={{
+									open: {
+										display: "block",
+										opacity: 1,
+										// height: width <= 858 ? "64rem" : "28rem",
+										height: "auto",
+									},
+									collapsed: {
+										opacity: 1,
+										height: 0,
+										transitionEnd: { opacity: 1 },
+									},
+								}}
+								transition={{ duration: 0.8, ease: [0.04, 0.2, 0.23, 0.98] }}
+							>
 								<p>{item.description}</p>
 							</Content>
 						)}
@@ -182,7 +202,8 @@ const FlexContainer = styled.div<IAccordionContainerProps>`
 	}
 `
 
-const Content = styled.div`
+const Content = styled(motion.div)`
+	overflow: hidden;
 	p {
 		margin: 1rem 0 2rem;
 		padding-top: 1rem;

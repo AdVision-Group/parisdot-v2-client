@@ -38,7 +38,22 @@ const Accordion: React.FC<IProps> = ({
 	idx,
 }) => {
 	return (
-		<AccordionContainer isActive={showContent}>
+		<AccordionContainer
+			initial={{
+				x: -200,
+				opacity: 0,
+			}}
+			whileInView={{
+				x: 0,
+				opacity: 1,
+			}}
+			transition={{
+				duration: 0.8,
+				delay: +`0.${idx}`,
+			}}
+			viewport={{ once: true }}
+			isActive={showContent}
+		>
 			<AccordionHeading
 				isActive={showContent}
 				onClick={() => openEventDayProgram(!showContent, idx)}
@@ -64,7 +79,7 @@ const Accordion: React.FC<IProps> = ({
 							},
 						}}
 						transition={{
-							duration: 0.3,
+							duration: 1,
 							ease: "linear",
 						}}
 					>
