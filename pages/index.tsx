@@ -13,6 +13,14 @@ const AboutSection = dynamic(
 		suspense: true,
 	}
 )
+
+const ProgramSection = dynamic(
+	() => import("../components/program-section/program-section.component"),
+	{
+		suspense: true,
+	}
+)
+
 const VenueSection = dynamic(
 	() => import("../components/venue-section/venue-section.component"),
 	{
@@ -64,6 +72,7 @@ const Home: NextPage = () => {
 				<HeroSection />
 				<Suspense fallback={<div />}>
 					<AboutSection />
+					<ProgramSection />
 					<VenueSection />
 					<FooterSection />
 				</Suspense>
