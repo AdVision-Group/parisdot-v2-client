@@ -28,7 +28,7 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 
 	return (
 		<AccordionContainer>
-			<AccordionHeading onClick={toggle}>
+			<AccordionHeading onClick={() => {}}>
 				<TimeContainer>
 					<p>{item.time}</p>
 				</TimeContainer>
@@ -36,9 +36,9 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 				<ContentContainer isActive={showContent}>
 					<FlexContainer isActive={showContent}>
 						<h3>{item.title}</h3>
-						<figure>
+						{/* <figure>
 							{showContent ? <FiArrowUpCircle /> : <FiArrowRightCircle />}
-						</figure>
+						</figure> */}
 					</FlexContainer>
 					<AnimatePresence>
 						{showContent && (
@@ -150,7 +150,7 @@ const AccordionContainer = styled(motion.div)`
 `
 
 const ContentContainer = styled(motion.div)<IAccordionContainerProps>`
-	cursor: pointer;
+	/* cursor: pointer; */
 	flex-grow: 1;
 	padding: 1rem 2.5rem;
 	border: 3px solid
