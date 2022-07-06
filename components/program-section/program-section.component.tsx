@@ -150,7 +150,7 @@ const ProgramSection: React.FC = () => {
 			],
 		},
 		{
-			id: "day-1",
+			id: "day-3",
 			title: "Program for 21.07",
 			showContent: false,
 			items: [
@@ -303,7 +303,7 @@ const ProgramSection: React.FC = () => {
 				viewport={{ once: true }}
 			>
 				<Image
-					src={"/assets/program-section/program.png"}
+					src={"/assets/program-section/conference.png"}
 					alt="ilu"
 					effect="blur"
 					style={{
@@ -319,7 +319,6 @@ const ProgramSection: React.FC = () => {
 					<Accordion
 						showContent={program[idx].showContent}
 						openEventDayProgram={openEventDayProgram}
-						// openHackathonDayProgram={openHackathonDayProgram}
 						key={idx}
 						idx={idx}
 						item={day}
