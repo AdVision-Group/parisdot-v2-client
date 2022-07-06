@@ -41,6 +41,10 @@ const FooterSection = dynamic(
 	}
 )
 
+const Footer = dynamic(() => import("../components/footer/footer.component"), {
+	suspense: true,
+})
+
 const Home: NextPage = () => {
 	return (
 		<React.Fragment>
@@ -83,6 +87,7 @@ const Home: NextPage = () => {
 					<WorkshopSection />
 					<VenueSection />
 					<FooterSection />
+					<Footer />
 				</Suspense>
 			</main>
 		</React.Fragment>
