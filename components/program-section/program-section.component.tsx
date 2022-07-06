@@ -288,7 +288,7 @@ const ProgramSection: React.FC = () => {
 	// console.log(program)
 
 	return (
-		<SectionContainer id="program">
+		<SectionContainer id="conference">
 			<TitleFigure
 				initial={{
 					opacity: 0,
