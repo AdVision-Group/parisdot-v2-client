@@ -140,13 +140,13 @@ const ProgramSection: React.FC = () => {
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 				},
-				{
-					id: "item-11",
-					time: "11:00 - 17:00",
-					title: "Workshop",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-				},
+				// {
+				// 	id: "item-11",
+				// 	time: "11:00 - 17:00",
+				// 	title: "Workshop",
+				// 	description:
+				// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+				// },
 			],
 		},
 		{
@@ -252,13 +252,13 @@ const ProgramSection: React.FC = () => {
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 				},
-				{
-					id: "item-15",
-					time: "11:00 - 17:00",
-					title: "Workshop",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-				},
+				// {
+				// 	id: "item-15",
+				// 	time: "11:00 - 17:00",
+				// 	title: "Workshop",
+				// 	description:
+				// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+				// },
 			],
 		},
 	])
@@ -300,6 +300,7 @@ const ProgramSection: React.FC = () => {
 					duration: 0.6,
 					// delay: 0.5,
 				}}
+				viewport={{ once: true }}
 			>
 				<Image
 					src={"/assets/program-section/program.png"}
