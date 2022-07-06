@@ -303,7 +303,7 @@ const ProgramSection: React.FC = () => {
 				viewport={{ once: true }}
 			>
 				<Image
-					src={"/assets/program-section/conference.png"}
+					src={"/assets/program-section/conference-v2.png"}
 					alt="ilu"
 					effect="blur"
 					style={{
@@ -346,6 +346,6 @@ const SectionContainer = styled.section`
 `
 const TitleFigure = styled(motion.figure)`
 	position: relative;
-	max-width: 50rem;
+	max-width: 52rem;
 	margin: 0 auto 5rem;
 `
