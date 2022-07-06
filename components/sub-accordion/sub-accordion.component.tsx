@@ -79,7 +79,7 @@ const TimeContainer = styled.div`
 	padding-top: 1.5rem;
 	font-size: 2rem;
 	font-weight: 1000;
-	margin-left: 2.2rem;
+	margin-left: 2rem;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
@@ -158,7 +158,7 @@ const AccordionContainer = styled(motion.div)`
 const ContentContainer = styled(motion.div)<IAccordionContainerProps>`
 	/* cursor: pointer; */
 	flex-grow: 1;
-	padding: 1.2rem 2.5rem 1rem;
+	padding: 1.2rem 2rem 1rem;
 	border: 2px solid
 		${({ theme, isActive }) =>
 			isActive
