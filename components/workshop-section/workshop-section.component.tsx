@@ -64,7 +64,7 @@ const WorkshopSection: React.FC = () => {
 	// console.log(program)
 
 	return (
-		<SectionContainer id="program">
+		<SectionContainer id="workshop">
 			<TitleFigure
 				initial={{
 					opacity: 0,

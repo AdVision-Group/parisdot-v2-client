@@ -45,6 +45,9 @@ const Header: React.FC = () => {
 								<Link href={"/#program"}>Program</Link>
 							</li>
 							<li className="link">
+								<Link href={"/#workshop"}>Workshop</Link>
+							</li>
+							<li className="link">
 								<Link href={"/#venue"}>Venue</Link>
 							</li>
 							<li className="icon">
@@ -115,6 +118,9 @@ const Header: React.FC = () => {
 							</li>
 							<li className="link" onClick={toggleMobileNav}>
 								<Link href={"/#program"}>Program</Link>
+							</li>
+							<li className="link" onClick={toggleMobileNav}>
+								<Link href={"/#workshop"}>Workshop</Link>
 							</li>
 							<li className="link" onClick={toggleMobileNav}>
 								<Link href={"/#venue"}>Venue</Link>
