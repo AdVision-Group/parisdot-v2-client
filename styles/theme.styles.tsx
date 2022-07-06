@@ -10,6 +10,10 @@ export const light = {
 		buttonBorderColor: "#fff",
 		buttonColor: "#fff",
 		linkColor: "#fff",
+		accordionBorderColor: "#fff",
+		activeAccordionBorderColor: "#FF008C",
+		accordionIconBackgroundColor: "#0C2746",
+		activeAccordionIconBackgroundColor: "#FF008C",
 	},
 	fonts: {
 		primary: "#DDDDDD",
