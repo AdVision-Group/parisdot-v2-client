@@ -140,6 +140,13 @@ const ProgramSection: React.FC = () => {
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 				},
+				{
+					id: "item-11",
+					time: "11:00 - 17:00",
+					title: "Workshop",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+				},
 			],
 		},
 		{
@@ -245,6 +252,13 @@ const ProgramSection: React.FC = () => {
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 				},
+				{
+					id: "item-15",
+					time: "11:00 - 17:00",
+					title: "Workshop",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+				},
 			],
 		},
 	])
@@ -320,11 +334,12 @@ export default ProgramSection
 
 const SectionContainer = styled.section`
 	scroll-margin-top: 10rem;
-	max-width: 120rem;
+	max-width: 117rem;
 	margin: 5rem auto 10rem;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+			/* padding: 0 1rem; */
 			margin: 10rem auto 15rem;
 		}
 	}

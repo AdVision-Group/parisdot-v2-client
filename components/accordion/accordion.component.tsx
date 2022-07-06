@@ -60,7 +60,7 @@ const Accordion: React.FC<IProps> = ({
 			>
 				<h2>{item.title}</h2>
 				<figure>
-					{showContent ? <FiArrowDownCircle /> : <FiArrowUpCircle />}
+					{showContent ? <FiArrowUpCircle /> : <FiArrowDownCircle />}
 				</figure>
 			</AccordionHeading>
 			<AnimatePresence>
@@ -103,19 +103,20 @@ const AccordionHeading = styled(motion.div)<IAccordionContainerProps>`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 1.2rem 1.5rem;
+	padding: 1.2rem 1.5rem 1.2rem 2rem;
 	cursor: pointer;
 	border-radius: 999rem;
-	border: 3px solid
+	border: 2px solid
 		${({ theme, isActive }) =>
 			isActive
 				? theme.colors.activeAccordionBorderColor
 				: theme.colors.accordionBorderColor};
 
 	h2 {
-		font-size: 1.8rem;
+		font-size: 1.66rem;
 		font-weight: 1000;
 		text-transform: uppercase;
+		line-height: 1;
 	}
 
 	figure {
@@ -132,14 +133,16 @@ const AccordionHeading = styled(motion.div)<IAccordionContainerProps>`
 	}
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-		padding: 1.2rem 3rem;
-
 		h2 {
+			padding-top: 0.2rem;
 			font-size: 2.2rem;
 		}
 
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+			padding: 1.2rem 3rem;
+
 			h2 {
+				padding-top: 0.4rem;
 				font-size: 2.9rem;
 			}
 		}

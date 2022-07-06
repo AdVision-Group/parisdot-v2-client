@@ -79,6 +79,12 @@ const TimeContainer = styled.div`
 	padding-top: 1.5rem;
 	font-size: 2rem;
 	font-weight: 1000;
+	margin-left: 2.2rem;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
+	}
 `
 
 const Circle = styled.div<IAccordionContainerProps>`
@@ -108,7 +114,7 @@ const AccordionHeading = styled(motion.div)`
 	grid-template-columns: auto;
 	max-width: 100rem;
 	margin: 0 auto;
-	padding: 1rem 0.5rem;
+	padding: 1rem 0;
 	gap: 2rem;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
@@ -152,8 +158,8 @@ const AccordionContainer = styled(motion.div)`
 const ContentContainer = styled(motion.div)<IAccordionContainerProps>`
 	/* cursor: pointer; */
 	flex-grow: 1;
-	padding: 1rem 2.5rem;
-	border: 3px solid
+	padding: 1.2rem 2.5rem 1rem;
+	border: 2px solid
 		${({ theme, isActive }) =>
 			isActive
 				? theme.colors.activeAccordionBorderColor
@@ -162,7 +168,7 @@ const ContentContainer = styled(motion.div)<IAccordionContainerProps>`
 	max-width: 76rem;
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-		padding: 1rem 2.5rem;
+		padding: 1.3rem 2.5rem 1rem;
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
 		}
 	}
