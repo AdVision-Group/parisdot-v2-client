@@ -27,6 +27,12 @@ const HeroSection: React.FC = () => {
 			// height: 50,
 		},
 		{
+			src: "/assets/partners/huok.png",
+			alt: "kr1 logo",
+			href: "https://kr1.io/",
+			// width: 50,
+		},
+		{
 			src: "/assets/partners/logion.png",
 			alt: "logion logo",
 			href: "https://logion.network/",
@@ -319,7 +325,7 @@ const PartnersContainer = styled(motion.div)`
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 100%;
-	max-width: 60rem;
+	max-width: 65rem;
 	margin-left: auto;
 	gap: 2.5rem;
 	margin: 3rem auto 0;

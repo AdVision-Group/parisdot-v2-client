@@ -23,7 +23,7 @@ const Header: React.FC = () => {
 				<Container>
 					<LogoContainer>
 						<Image
-							src="/assets/logo_repair.svg"
+							src="/assets/pdot-v4.svg"
 							alt="ParisDOT Logo"
 							effect="blur"
 							style={{
