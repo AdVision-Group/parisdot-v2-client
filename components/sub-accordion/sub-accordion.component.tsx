@@ -3,6 +3,9 @@ import React from "react"
 import styled, { css } from "styled-components"
 import { motion, AnimatePresence } from "framer-motion"
 
+// Components
+import Image from "../image/image.component"
+
 // Hooks
 import { useBoolean } from "usehooks-ts"
 
@@ -16,6 +19,17 @@ interface IProps {
 		time: string
 		title: string
 		description: string
+		speaker?: {
+			name: string
+			image: {
+				src: string
+				alt: string
+			}
+			logo: {
+				src: string
+				alt: string
+			}
+		}
 	}
 }
 
@@ -28,7 +42,7 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 
 	return (
 		<AccordionContainer>
-			<AccordionHeading onClick={() => {}}>
+			<AccordionHeading onClick={toggle}>
 				<TimeContainer>
 					<p>{item.time}</p>
 				</TimeContainer>
@@ -36,9 +50,40 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 				<ContentContainer isActive={showContent}>
 					<FlexContainer isActive={showContent}>
 						<h3>{item.title}</h3>
-						{/* <figure>
-							{showContent ? <FiArrowUpCircle /> : <FiArrowRightCircle />}
-						</figure> */}
+						{item.speaker && <Border />}
+						{item.speaker && (
+							<SpeakerContainer isActive={showContent}>
+								<figure className="speaker">
+									<Image
+										src={item.speaker.image.src}
+										alt={item.speaker.image.alt}
+										effect="blur"
+										style={{
+											objectFit: "contain",
+										}}
+										// width={"100%"}
+									/>
+								</figure>
+								<div>
+									<figure className="speaker-logo">
+										<Image
+											src={item.speaker.logo.src}
+											alt={item.speaker.logo.alt}
+											effect="blur"
+											style={{
+												objectFit: "contain",
+											}}
+											// width={"100%"}
+											// height={"5rem"}
+										/>
+									</figure>
+									<h4>{item.speaker.name}</h4>
+								</div>
+								<figure className="icon">
+									{showContent ? <FiArrowUpCircle /> : <FiArrowRightCircle />}
+								</figure>
+							</SpeakerContainer>
+						)}
 					</FlexContainer>
 					<AnimatePresence>
 						{showContent && (
@@ -119,7 +164,7 @@ const AccordionHeading = styled(motion.div)`
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
-			padding: 1rem 5rem;
+			padding: 1rem 1rem;
 			grid-template-columns: auto auto 1fr;
 		}
 	}
@@ -156,7 +201,7 @@ const AccordionContainer = styled(motion.div)`
 `
 
 const ContentContainer = styled(motion.div)<IAccordionContainerProps>`
-	/* cursor: pointer; */
+	cursor: pointer;
 	flex-grow: 1;
 	padding: 1.2rem 2rem 1rem;
 	border: 2px solid
@@ -176,8 +221,9 @@ const ContentContainer = styled(motion.div)<IAccordionContainerProps>`
 
 const FlexContainer = styled.div<IAccordionContainerProps>`
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	align-items: start;
+	justify-content: start;
+	flex-direction: column;
 
 	h3 {
 		font-size: 1.6rem;
@@ -185,7 +231,7 @@ const FlexContainer = styled.div<IAccordionContainerProps>`
 		text-transform: uppercase;
 	}
 
-	figure {
+	/* figure {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -194,16 +240,22 @@ const FlexContainer = styled.div<IAccordionContainerProps>`
 		border-radius: 50%;
 
 		background-color: ${({ theme, isActive }) =>
-			isActive
-				? theme.colors.activeAccordionIconBackgroundColor
-				: theme.colors.accordionIconBackgroundColor};
-	}
+		isActive
+			? theme.colors.activeAccordionIconBackgroundColor
+			: theme.colors.accordionIconBackgroundColor};
+	} */
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
 		h3 {
 			font-size: 2rem;
 		}
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+			align-items: center;
+			justify-content: space-between;
+			flex-direction: row;
+			h3 {
+				margin-right: 1rem;
+			}
 		}
 	}
 `
@@ -215,5 +267,82 @@ const Content = styled(motion.div)`
 		padding-top: 1rem;
 		border-top: 1px solid
 			${({ theme }) => theme.colors.accordionIconBackgroundColor};
+	}
+`
+
+const Border = styled.div`
+	width: 100%;
+	height: 1px;
+	/* justify-self: end; */
+	/* margin-left: auto; */
+	margin: 1rem 0;
+	background-color: #fff;
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+			width: 1px;
+			height: 5rem;
+			justify-self: end;
+			margin-left: auto;
+			margin-right: 3rem;
+			background-color: ${({ theme }) =>
+				theme.colors.accordionIconBackgroundColor};
+		}
+	}
+`
+
+const SpeakerContainer = styled.div<IAccordionContainerProps>`
+	display: flex;
+	align-items: center;
+	width: 100%;
+	/* max-width: 20rem; */
+	gap: 1rem;
+	/* border: 1px solid red; */
+
+	h4 {
+		font-size: 1.6rem;
+		font-weight: 1000;
+		text-transform: uppercase;
+	}
+
+	.speaker {
+		/* margin-top: 1rem; */
+		padding-top: 0.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.speaker-logo {
+		/* max-height: 3rem; */
+	}
+
+	.icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 3.5rem;
+		padding: 0.6rem;
+		border-radius: 50%;
+
+		background-color: ${({ theme, isActive }) =>
+			isActive
+				? theme.colors.activeAccordionIconBackgroundColor
+				: theme.colors.accordionIconBackgroundColor};
+
+		justify-self: end;
+		margin-left: auto;
+
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+			@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+				display: none;
+			}
+		}
+	}
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+			max-width: 20rem;
+		}
 	}
 `

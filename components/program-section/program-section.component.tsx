@@ -20,6 +20,17 @@ const ProgramSection: React.FC = () => {
 					title: "Registration",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "John Doe",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-2",
@@ -27,6 +38,17 @@ const ProgramSection: React.FC = () => {
 					title: "Opening the conference Hello from the organizers",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "John Doe",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-3",
@@ -34,6 +56,17 @@ const ProgramSection: React.FC = () => {
 					title: "Keynote 1",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "John Doe",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-4",
@@ -41,6 +74,17 @@ const ProgramSection: React.FC = () => {
 					title: "Panel 1",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "John Doe",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-5",
