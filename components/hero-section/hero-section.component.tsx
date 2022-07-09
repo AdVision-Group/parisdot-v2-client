@@ -49,6 +49,11 @@ const HeroSection: React.FC = () => {
 			href: "https://moonbeam.network/",
 		},
 		{
+			src: "/assets/partners/Authtrail.png",
+			alt: "authtrail logo",
+			href: "https://authtrail.com/?utm_source=moonbeam&utm_medium=directory&utm_campaign=featuredpartner",
+		},
+		{
 			src: "/assets/partners/hdx.png",
 			alt: "hydra logo",
 			href: "https://hydradx.io/",
@@ -83,6 +88,22 @@ const HeroSection: React.FC = () => {
 			alt: "Zeitgeist logo",
 			href: "https://zeitgeist.pm/",
 			// width: 80,
+		},
+	]
+	const partners2 = [
+		{
+			src: "/assets/partners/Blockchain-HEC.png",
+			alt: "Blockchain-HEC logo",
+			href: "https://blockchain-hec.com/",
+			width: 130,
+			// height: 60,
+		},
+
+		{
+			src: "/assets/partners/narative.png",
+			alt: "narative logo",
+			href: "#",
+			width: 80,
 		},
 	]
 	return (
@@ -270,8 +291,50 @@ const HeroSection: React.FC = () => {
 							delay: 4,
 						}}
 					>
-						more sponsors tba
+						supported by
 					</MorePartners>
+					<Partners2Container
+						initial={{
+							opacity: 0,
+						}}
+						animate={{
+							opacity: 1,
+						}}
+						transition={{
+							duration: 1,
+							delay: 5.2,
+						}}
+					>
+						{partners2.map((partner, idx) => (
+							<a
+								key={idx}
+								href={partner.href}
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<motion.figure
+									whileHover={{
+										scale: 1.05,
+									}}
+									whileTap={{
+										scale: 0.97,
+									}}
+								>
+									<Image
+										src={partner.src}
+										alt="ilu"
+										effect="blur"
+										style={{
+											objectFit: "contain",
+										}}
+										width={partner.width || 100}
+										// height={partner.height || 40}
+										height={40}
+									/>
+								</motion.figure>
+							</a>
+						))}
+					</Partners2Container>
 				</div>
 			</SectionContainer>
 		</React.Fragment>
@@ -325,11 +388,33 @@ const PartnersContainer = styled(motion.div)`
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 100%;
-	max-width: 65rem;
+	max-width: 67rem;
 	margin-left: auto;
 	gap: 2.5rem;
 	margin: 3rem auto 0;
 	padding-top: 0.5rem;
+
+	figure {
+		position: relative;
+	}
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
+	}
+`
+
+const Partners2Container = styled(motion.div)`
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	max-width: 67rem;
+	margin-left: auto;
+	gap: 2.5rem;
+	margin: 0 auto 0;
+	/* padding-top: 0.5rem; */
 
 	figure {
 		position: relative;
@@ -388,5 +473,5 @@ const MorePartners = styled(motion.p)`
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 2.5rem;
-	margin-top: 2.5rem;
+	margin-top: 1rem;
 `
