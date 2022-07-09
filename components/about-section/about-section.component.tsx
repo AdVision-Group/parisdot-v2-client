@@ -8,6 +8,7 @@ import Title from "../title/title.component"
 import Image from "../image/image.component"
 import Paragraph from "../paragraph/paragraph.component"
 import Button from "../button/button.component"
+import Link from "next/link"
 
 const AboutSection: React.FC = () => {
 	return (
@@ -82,15 +83,17 @@ const AboutSection: React.FC = () => {
 						>
 							<Button rounded>Buy tickets</Button>
 						</a>
-						<a
+						{/* <a
 							rel="noopener noreferrer"
 							target="_blank"
 							href="https://xkmlgcptw4h.typeform.com/to/WgZTsjqB"
-						>
+						> */}
+						<Link href="/#conference">
 							<Button outline rounded>
-								Apply to speak
+								Conf program
 							</Button>
-						</a>
+						</Link>
+						{/* </a> */}
 					</ButtonsContainer>
 				</Content>
 			</Container>
