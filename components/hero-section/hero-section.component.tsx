@@ -95,7 +95,7 @@ const HeroSection: React.FC = () => {
 			src: "/assets/partners/Blockchain-HEC.png",
 			alt: "Blockchain-HEC logo",
 			href: "https://blockchain-hec.com/",
-			width: 130,
+			width: 200,
 			// height: 60,
 		},
 
@@ -103,7 +103,7 @@ const HeroSection: React.FC = () => {
 			src: "/assets/partners/narative.png",
 			alt: "narative logo",
 			href: "#",
-			width: 80,
+			width: 130,
 		},
 	]
 	return (
@@ -146,7 +146,7 @@ const HeroSection: React.FC = () => {
 					}}
 					transition={{
 						duration: DURATION,
-						delay: 0.4,
+						delay: 0.6,
 					}}
 				>
 					PARIS, FRANCE - ARAB WORLD INSTITUTE
@@ -174,7 +174,7 @@ const HeroSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: DURATION,
+						duration: DURATION + 0.4,
 						delay: 1,
 					}}
 				>
@@ -199,8 +199,8 @@ const HeroSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: DURATION,
-						delay: 1.6,
+						duration: DURATION + 0.4,
+						delay: 2,
 					}}
 				>
 					3 days of conference and workshops sessions organized by some of the
@@ -216,7 +216,7 @@ const HeroSection: React.FC = () => {
 					}}
 					transition={{
 						duration: 0.8,
-						delay: 2.2,
+						delay: 3,
 					}}
 				>
 					<a
@@ -247,7 +247,7 @@ const HeroSection: React.FC = () => {
 						}}
 						transition={{
 							duration: 1.2,
-							delay: 2.8,
+							delay: 3.8,
 						}}
 					>
 						{partners.map((partner, idx) => (
@@ -288,7 +288,7 @@ const HeroSection: React.FC = () => {
 						}}
 						transition={{
 							duration: 1.2,
-							delay: 4,
+							delay: 5,
 						}}
 					>
 						supported by
@@ -302,7 +302,7 @@ const HeroSection: React.FC = () => {
 						}}
 						transition={{
 							duration: 1,
-							delay: 5.2,
+							delay: 6.2,
 						}}
 					>
 						{partners2.map((partner, idx) => (
@@ -327,9 +327,9 @@ const HeroSection: React.FC = () => {
 										style={{
 											objectFit: "contain",
 										}}
-										width={partner.width || 100}
+										width={partner.width || 150}
 										// height={partner.height || 40}
-										height={40}
+										height={60}
 									/>
 								</motion.figure>
 							</a>
@@ -414,7 +414,7 @@ const Partners2Container = styled(motion.div)`
 	margin-left: auto;
 	gap: 2.5rem;
 	margin: 0 auto 0;
-	/* padding-top: 0.5rem; */
+	padding-top: 0.5rem;
 
 	figure {
 		position: relative;
@@ -473,5 +473,6 @@ const MorePartners = styled(motion.p)`
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 2.5rem;
-	margin-top: 1rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
 `
