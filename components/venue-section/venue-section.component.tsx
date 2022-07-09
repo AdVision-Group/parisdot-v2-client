@@ -34,8 +34,8 @@ const VenueSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: 0.6,
-						delay: 0.6,
+						duration: 1,
+						delay: 1,
 					}}
 					viewport={{ once: true }}
 				>
@@ -69,7 +69,7 @@ const VenueSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: 0.6,
+						duration: 1,
 					}}
 					viewport={{ once: true }}
 				>

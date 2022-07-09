@@ -49,6 +49,11 @@ const HeroSection: React.FC = () => {
 			href: "https://moonbeam.network/",
 		},
 		{
+			src: "/assets/partners/Authtrail.png",
+			alt: "authtrail logo",
+			href: "https://authtrail.com/?utm_source=moonbeam&utm_medium=directory&utm_campaign=featuredpartner",
+		},
+		{
 			src: "/assets/partners/hdx.png",
 			alt: "hydra logo",
 			href: "https://hydradx.io/",
@@ -83,6 +88,22 @@ const HeroSection: React.FC = () => {
 			alt: "Zeitgeist logo",
 			href: "https://zeitgeist.pm/",
 			// width: 80,
+		},
+	]
+	const partners2 = [
+		{
+			src: "/assets/partners/Blockchain-HEC.png",
+			alt: "Blockchain-HEC logo",
+			href: "https://blockchain-hec.com/",
+			width: 200,
+			// height: 60,
+		},
+
+		{
+			src: "/assets/partners/narative.png",
+			alt: "narative logo",
+			href: "#",
+			width: 130,
 		},
 	]
 	return (
@@ -125,7 +146,7 @@ const HeroSection: React.FC = () => {
 					}}
 					transition={{
 						duration: DURATION,
-						delay: 0.4,
+						delay: 0.6,
 					}}
 				>
 					PARIS, FRANCE - ARAB WORLD INSTITUTE
@@ -153,7 +174,7 @@ const HeroSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: DURATION,
+						duration: DURATION + 0.4,
 						delay: 1,
 					}}
 				>
@@ -178,8 +199,8 @@ const HeroSection: React.FC = () => {
 						opacity: 1,
 					}}
 					transition={{
-						duration: DURATION,
-						delay: 1.6,
+						duration: DURATION + 0.4,
+						delay: 2,
 					}}
 				>
 					3 days of conference and workshops sessions organized by some of the
@@ -195,7 +216,7 @@ const HeroSection: React.FC = () => {
 					}}
 					transition={{
 						duration: 0.8,
-						delay: 2.2,
+						delay: 3,
 					}}
 				>
 					<a
@@ -226,7 +247,7 @@ const HeroSection: React.FC = () => {
 						}}
 						transition={{
 							duration: 1.2,
-							delay: 2.8,
+							delay: 3.8,
 						}}
 					>
 						{partners.map((partner, idx) => (
@@ -267,11 +288,53 @@ const HeroSection: React.FC = () => {
 						}}
 						transition={{
 							duration: 1.2,
-							delay: 4,
+							delay: 5,
 						}}
 					>
-						more sponsors tba
+						supported by
 					</MorePartners>
+					<Partners2Container
+						initial={{
+							opacity: 0,
+						}}
+						animate={{
+							opacity: 1,
+						}}
+						transition={{
+							duration: 1,
+							delay: 6.2,
+						}}
+					>
+						{partners2.map((partner, idx) => (
+							<a
+								key={idx}
+								href={partner.href}
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<motion.figure
+									whileHover={{
+										scale: 1.05,
+									}}
+									whileTap={{
+										scale: 0.97,
+									}}
+								>
+									<Image
+										src={partner.src}
+										alt="ilu"
+										effect="blur"
+										style={{
+											objectFit: "contain",
+										}}
+										width={partner.width || 150}
+										// height={partner.height || 40}
+										height={60}
+									/>
+								</motion.figure>
+							</a>
+						))}
+					</Partners2Container>
 				</div>
 			</SectionContainer>
 		</React.Fragment>
@@ -325,10 +388,32 @@ const PartnersContainer = styled(motion.div)`
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 100%;
-	max-width: 65rem;
+	max-width: 67rem;
 	margin-left: auto;
 	gap: 2.5rem;
 	margin: 3rem auto 0;
+	padding-top: 0.5rem;
+
+	figure {
+		position: relative;
+	}
+
+	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+		}
+	}
+`
+
+const Partners2Container = styled(motion.div)`
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	max-width: 67rem;
+	margin-left: auto;
+	gap: 2.5rem;
+	margin: 0 auto 0;
 	padding-top: 0.5rem;
 
 	figure {
@@ -388,5 +473,6 @@ const MorePartners = styled(motion.p)`
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 2.5rem;
-	margin-top: 2.5rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
 `

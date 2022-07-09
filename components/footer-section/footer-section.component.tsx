@@ -81,13 +81,24 @@ const Ilustration2 = styled.figure`
 `
 
 const SectionContainer = styled.section`
-	padding: 0 1.5rem;
+	padding: 0;
+	/* padding: 0 1.5rem; */
 	max-width: 120rem;
 	margin: 0 auto;
-	/* margin-bottom: -5rem; */
+	/* margin-right: -1.5rem; */
+
+	figure {
+		margin-left: -1.5rem;
+		width: calc(100% + 3rem);
+	}
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
 		@media all and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+			padding: 0 1.5rem;
+			figure {
+				margin-left: unset;
+				width: 100%;
+			}
 			/* margin-bottom: -15rem; */
 		}
 	}
