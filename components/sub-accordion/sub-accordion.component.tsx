@@ -42,7 +42,7 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 
 	return (
 		<AccordionContainer>
-			<AccordionHeading onClick={toggle}>
+			<AccordionHeading onClick={() => {}}>
 				<TimeContainer>
 					<p>{item.time}</p>
 				</TimeContainer>
