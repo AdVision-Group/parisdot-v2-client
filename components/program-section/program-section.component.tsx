@@ -17,7 +17,7 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-1",
 					time: "12:00 - 14:00",
-					title: "Registration",
+					title: "Registration - pillar room",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
@@ -34,7 +34,7 @@ const ProgramSection: React.FC = () => {
 				},
 				{
 					id: "item-2",
-					time: "14:00 - 14:20",
+					time: "14:00 - 14:15",
 					title: "Opening the conference Hello from the organizers",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
@@ -52,62 +52,63 @@ const ProgramSection: React.FC = () => {
 				},
 				{
 					id: "item-3",
-					time: "14:30 - 15:00",
-					title: "Keynote 1",
+					time: "14:15 - 14:45",
+					title: "Blockchains that evolve with your business",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Gautam Dhameja",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "Gautam Dhameja",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-4",
-					time: "15:05 - 15:45",
-					title: "Panel 1",
+					time: "14:45 - 15:15",
+					title: "Mojo over Ego: decentralizing leadership",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Lisa Wocken",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-5",
-					time: "15:50 - 16:30",
-					title: "Panel 2",
+					time: "15:15 - 15:45",
+					title: "What does it mean to be decentralized?",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Hoon Kim",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
+
 				{
 					id: "item-6",
-					time: "16:35 - 17:05",
-					title: "Keynote 2",
+					time: "15:45 - 16:15",
+					title: "Break - pillar room",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
@@ -124,12 +125,103 @@ const ProgramSection: React.FC = () => {
 				},
 				{
 					id: "item-7",
-					time: "17:10 - 17:30",
-					title: "Presentation 1",
+					time: "16:15 - 16:40",
+					title: "Intro to Phala World - Gamifying the Meta-Soul",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "Zoe Meckbach",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
+				},
+				{
+					id: "item-8",
+					time: "16:40 - 17:05",
+					title: "Moonbeam and interoperability",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "Alberto",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
+				},
+				{
+					id: "item-9",
+					time: "17:05 - 17:30",
+					title:
+						"Restricted delivery of the NFT underlying asset to the NFT owner: a revolutionary capability for a safe digital ownership",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "Elie Auvray",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
+				},
+				{
+					id: "item-10",
+					time: "17:30 - 17:55",
+					title: "A Unified Platform For Polkadot’s Technology Stack",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "Matjaz Sobocan",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
+				},
+				{
+					id: "item-11",
+					time: "17:55 - 18:20",
+					title: "Radically open Bitcoin for parachains",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "Alberto",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
+				},
+				{
+					id: "item-8",
+					time: "18:00 - 19:00",
+					title: "Closing",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
-					// 	name: "John Doe",
+					// 	name: "Alberto",
 					// 	image: {
 					// 		src: "/assets/program-section/speaker-placeholder.png",
 					// 		alt: "speaker placeholder",
@@ -150,7 +242,7 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-1",
 					time: "10:30 - 11:00",
-					title: "Coffee, mingling",
+					title: "Coffee, mingling - pillar room",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
@@ -167,61 +259,99 @@ const ProgramSection: React.FC = () => {
 				},
 				{
 					id: "item-2",
-					time: "11:00 - 11:30",
-					title: "Presentation 2",
+					time: "11:00 - 11:25",
+					title: "On-chain privacy in Polkadot and web3",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "auditorium - Kenny Li",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-3",
-					time: "11:30 - 12:00",
-					title: "Keynote 3",
+					time: "11:25 - 11:55",
+					title: "Importance of light client for decentralization",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Radha Dasari",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-4",
-					time: "12:00 - 12:30",
-					title: "Presentation 3",
+					time: "11:55 - 12:20",
+					title:
+						"Composable’s Cross-chain Virtual Machine (XCVM) is the primary piece of technology that will finally allow for true composability across multiple ecosystems within DeFi, facilitated by its natively cross-chain smart contracts.",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "0xbrainjar",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-5",
-					time: "12:30 - 14:30",
+					time: "12:20 - 12:45",
+					title: "Real DeFi with real use cases.",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "LucasVo",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
+				},
+				{
+					id: "item-6",
+					time: "12:45 - 13:10",
+					title:
+						"sTAL, the smart coin for smart people : a new kind of trustable stablecoin for the Polkadot ecosystem and beyond",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "Alain Parize",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
+				},
+				{
+					id: "item-7",
+					time: "13:10 - 14:30",
 					title: "lunch Break",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
@@ -238,63 +368,27 @@ const ProgramSection: React.FC = () => {
 					// },
 				},
 				{
-					id: "item-6",
-					time: "14:30 - 15:00",
-					title: "Presentation 4",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
-				},
-				{
-					id: "item-7",
-					time: "15:00 - 16:15",
-					title: "Panel 3 plus QA",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
-				},
-				{
 					id: "item-8",
-					time: "16:15 - 16:45",
-					title: "Coffee break",
+					time: "14:30 - 14:55",
+					title: "The problems with metaverses today and how to solve them",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Bruno Skvorc",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-9",
-					time: "16:45 - 17:15",
-					title: "Keynote 4",
+					time: "14:55 - 16:00",
+					title: "Why is it important to rely on independent validators?",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
@@ -311,8 +405,100 @@ const ProgramSection: React.FC = () => {
 				},
 				{
 					id: "item-10",
-					time: "17:15 - 17:45",
-					title: "Presentation 5",
+					time: "16:00 - 16:30",
+					title: "Coffee break",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					// speaker: {
+					// 	name: "John Doe",
+					// 	image: {
+					// 		src: "/assets/program-section/speaker-placeholder.png",
+					// 		alt: "speaker placeholder",
+					// 	},
+					// 	logo: {
+					// 		src: "/assets/program-section/partner-placeholder.png",
+					// 		alt: "partner placeholder",
+					// 	},
+					// },
+				},
+				{
+					id: "item-11",
+					time: "16:30 - 17:00",
+					title: "Crypto regulation, current issues and possible solutions",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "Adam Berker",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
+				},
+				{
+					id: "item-12",
+					time: "17:00 - 17:25",
+					title:
+						"The Kusamaverse: how it came into existence, how it is going and our hopes for the future of it",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "Nic Rutherford",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
+				},
+				{
+					id: "item-13",
+					time: "17:25 - 17:50",
+					title: "Polkadot Alliance, what is it?",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "Toma Sadova",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
+				},
+				{
+					id: "item-14",
+					time: "17:50 - 18:15",
+					title:
+						"Smart contracts auditing, pen testing, bug bounties… how it is crucial in today's market",
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					speaker: {
+						name: "Yev",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
+				},
+				{
+					id: "item-10",
+					time: "18:30 - 19:00",
+					title: "Closing",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
@@ -344,7 +530,7 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-1",
 					time: "10:30 - 11:00",
-					title: "Coffee, mingling",
+					title: "Coffee, mingling - pillar room",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
@@ -361,80 +547,80 @@ const ProgramSection: React.FC = () => {
 				},
 				{
 					id: "item-2",
-					time: "11:00 - 11:30",
-					title: "Presentation 6",
+					time: "11:00 - 11:25",
+					title: "The State of music NFTs in Dotsama",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Antoine Estienne",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-3",
-					time: "11:30 - 12:00",
-					title: "Keynote 5",
+					time: "11:25 - 11:55",
+					title: "A native jurisdiction built for Web3",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Alessandro Palombo",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-4",
-					time: "12:00 - 12:30",
-					title: "Presentation 7",
+					time: "11:55 - 12:20",
+					title: "Subsquid, indexing for the Web3's mass adoption",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Massimo",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-5",
-					time: "12:30 - 13:00",
-					title: "Keynote 6",
+					time: "12:20 - 13:05",
+					title: "The importance of developing the Polkadot community",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Zoé Meckbach",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-6",
-					time: "13:00 - 14:30",
-					title: "Lunch break",
+					time: "13:05 - 13:30",
+					title: "TBC",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
@@ -451,8 +637,8 @@ const ProgramSection: React.FC = () => {
 				},
 				{
 					id: "item-7",
-					time: "14:30 - 15:00",
-					title: "Presentation 8",
+					time: "13:30 - 14:30",
+					title: "Lunch break (outside)",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
@@ -469,44 +655,45 @@ const ProgramSection: React.FC = () => {
 				},
 				{
 					id: "item-8",
-					time: "15:00 - 16:15",
-					title: "Panel 4 plus QA",
+					time: "14:30 - 14:55",
+					title:
+						"Unified liquidity standard for staking and crowdloan derivatives",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Terry",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-9",
-					time: "16:15 - 16:45",
-					title: "Coffee break",
+					time: "14:55 - 16:00",
+					title: "Scaling Polkadot education",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Radha Dasari",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-10",
-					time: "16:45 - 17:15",
-					title: "Keynote 7",
+					time: "16:00 - 16:30",
+					title: "Coffee break - pillar room",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
@@ -523,62 +710,62 @@ const ProgramSection: React.FC = () => {
 				},
 				{
 					id: "item-11",
-					time: "17:15 - 17:45",
-					title: "Presentation 9",
+					time: "16:30 - 17:00",
+					title: "Carbon credits d ecoded",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Gilad Goren",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-12",
-					time: "17:45 - 18:15",
-					title: "Keynote 8",
+					time: "17:00 - 17:25",
+					title: "Standardizing cross-chain communication",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Jacob Kowalewski",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-13",
-					time: "18:15 - 18:30",
-					title: "Thank you from the Organisers",
+					time: "17:25 - 17:50",
+					title: "TBC",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "HydraDX",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/program-section/partner-placeholder.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-14",
-					time: "18:30 - 19:30",
-					title: "After conference drinks",
+					time: "18:15 - 18:30",
+					title: "Thank you from the organizers",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
