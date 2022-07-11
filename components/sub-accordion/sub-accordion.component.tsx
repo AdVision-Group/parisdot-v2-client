@@ -329,7 +329,9 @@ const SpeakerContainer = styled.div<IAccordionContainerProps>`
 	}
 
 	.icon {
-		display: flex;
+		/* display: flex; */
+		display: none;
+
 		align-items: center;
 		justify-content: center;
 		font-size: 3.5rem;

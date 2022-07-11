@@ -45,6 +45,12 @@ const HeroSection: React.FC = () => {
 			href: "https://www.manta.network/",
 		},
 		{
+			src: "/assets/partners/day-2/momentum.png",
+			alt: "momentum logo",
+			href: "https://momentum.xyz/",
+			width: 130,
+		},
+		{
 			src: "/assets/partners/Moonbeam-Logo.png",
 			alt: "moonbeam logo",
 			href: "https://moonbeam.network/",
@@ -99,7 +105,6 @@ const HeroSection: React.FC = () => {
 			width: 200,
 			// height: 60,
 		},
-
 		{
 			src: "/assets/partners/narative.png",
 			alt: "narative logo",
@@ -391,7 +396,7 @@ const PartnersContainer = styled(motion.div)`
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 100%;
-	max-width: 67rem;
+	max-width: 90rem;
 	margin-left: auto;
 	gap: 2.5rem;
 	margin: 3rem auto 0;
