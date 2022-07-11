@@ -359,7 +359,7 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-7",
 					time: "13:10 - 14:30",
-					title: "lunch Break",
+					title: "Lunch Break (outside)",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
