@@ -765,7 +765,7 @@ const ProgramSection: React.FC = () => {
 					speaker: {
 						name: "HydraDX",
 						image: {
-							src: "/assets/partners/day-3/hydra-dx.png",
+							src: "/assets/partners/day-3/hydra.png",
 							alt: "HydraDX",
 						},
 						logo: {
