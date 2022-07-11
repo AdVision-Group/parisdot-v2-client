@@ -101,6 +101,8 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-1/astar.png",
 							alt: "Astar",
+							width: 50,
+							height: 20,
 						},
 					},
 				},
@@ -162,8 +164,7 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-9",
 					time: "17:05 - 17:30",
-					title:
-						"A Unified Platform For Polkadot’s Technology Stack",
+					title: "A Unified Platform For Polkadot’s Technology Stack",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
@@ -181,7 +182,8 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-10",
 					time: "17:30 - 17:55",
-					title: "Restricted delivery of NFT underlying assets to the sole NFT owner: a logion revolutionary capability for safe digital ownership",
+					title:
+						"Restricted delivery of NFT underlying assets to the sole NFT owner: a logion revolutionary capability for safe digital ownership",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
@@ -193,6 +195,8 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-1/logion.png",
 							alt: "Logion",
+							width: 40,
+							// height: 20,
 						},
 					},
 				},
@@ -211,6 +215,8 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-1/interlay.png",
 							alt: "Interlay",
+							width: 60,
+							// height: 30,
 						},
 					},
 				},
@@ -346,6 +352,7 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-2/tal.png",
 							alt: "Tal",
+							width: 40,
 						},
 					},
 				},
@@ -370,7 +377,8 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-8",
 					time: "14:30 - 14:55",
-					title: "The biggest problems with metaverses today and how to solve them!",
+					title:
+						"The biggest problems with metaverses today and how to solve them!",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
@@ -388,7 +396,8 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-9",
 					time: "14:55 - 16:00",
-					title: "Panel + QA: Why is it important to rely on independent validators?",
+					title:
+						"Panel + QA: Why is it important to rely on independent validators?",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
@@ -566,7 +575,8 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-3",
 					time: "11:25 - 11:55",
-					title: "Polkadot & Ethereum: opening up a whole new space for innovation where NFTs will grow up",
+					title:
+						"Polkadot & Ethereum: opening up a whole new space for innovation where NFTs will grow up",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
@@ -602,7 +612,8 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-5",
 					time: "12:20 - 13:05",
-					title: "Panel 2 + QA: The importance of developing the Polkadot community",
+					title:
+						"Panel 2 + QA: The importance of developing the Polkadot community",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
@@ -741,6 +752,7 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-3/t3rn.png",
 							alt: "T3RN",
+							width: 40,
 						},
 					},
 				},

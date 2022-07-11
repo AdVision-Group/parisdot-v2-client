@@ -28,6 +28,8 @@ interface IProps {
 			logo: {
 				src: string
 				alt: string
+				width?: string | number
+				height?: string | number
 			}
 		}
 	}
@@ -73,7 +75,16 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 											style={{
 												objectFit: "contain",
 											}}
-											width={"80%"}
+											width={
+												item.speaker.logo.width
+													? item.speaker.logo.width
+													: "80%"
+											}
+											height={
+												item.speaker.logo.width
+													? item.speaker.logo.width
+													: "auto"
+											}
 											// height={"5"}
 										/>
 									</figure>
