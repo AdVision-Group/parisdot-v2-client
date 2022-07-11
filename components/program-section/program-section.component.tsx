@@ -59,12 +59,12 @@ const ProgramSection: React.FC = () => {
 					speaker: {
 						name: "Gautam Dhameja",
 						image: {
-							src: "/assets/program-section/speaker-placeholder.png",
+							src: "/assets/speakers/Gautam-Dhameja.png",
 							alt: "Gautam Dhameja",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
-							alt: "partner placeholder",
+							src: "/assets/partners/day-1/Parity.png",
+							alt: "parity",
 						},
 					},
 				},
@@ -77,11 +77,11 @@ const ProgramSection: React.FC = () => {
 					speaker: {
 						name: "Lisa Wocken",
 						image: {
-							src: "/assets/program-section/speaker-placeholder.png",
+							src: "/assets/speakers/Lisa-Wocken.png",
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-1/talent-dao.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -95,11 +95,11 @@ const ProgramSection: React.FC = () => {
 					speaker: {
 						name: "Hoon Kim",
 						image: {
-							src: "/assets/program-section/speaker-placeholder.png",
+							src: "/assets/speakers/Hoon-Kim.png",
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-1/astar.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -132,11 +132,11 @@ const ProgramSection: React.FC = () => {
 					speaker: {
 						name: "Zoe Meckbach",
 						image: {
-							src: "/assets/program-section/speaker-placeholder.png",
+							src: "/assets/speakers/Zoe-Meckbach.png",
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-1/logo-polkadot.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -150,11 +150,11 @@ const ProgramSection: React.FC = () => {
 					speaker: {
 						name: "Alberto",
 						image: {
-							src: "/assets/program-section/speaker-placeholder.png",
+							src: "/assets/speakers/Alberto-V.png",
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-1/Moonbeam-Logo.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -169,7 +169,7 @@ const ProgramSection: React.FC = () => {
 					speaker: {
 						name: "Elie Auvray",
 						image: {
-							src: "/assets/program-section/speaker-placeholder.png",
+							src: "/assets/speakers/Elie-Auvray.png",
 							alt: "speaker placeholder",
 						},
 						logo: {
@@ -187,11 +187,11 @@ const ProgramSection: React.FC = () => {
 					speaker: {
 						name: "Matjaz Sobocan",
 						image: {
-							src: "/assets/program-section/speaker-placeholder.png",
+							src: "/assets/speakers/Matjaz-Sobocan.png",
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-1/authtrail-500.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -209,7 +209,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-1/Interplay.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -270,7 +270,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-2/manta-network.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -288,7 +288,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-2/ewb3-foundation.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -307,7 +307,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-2/Composable.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -325,7 +325,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-2/Centrifuge.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -344,7 +344,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-2/tal.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -380,7 +380,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-2/rmrk.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -391,17 +391,17 @@ const ProgramSection: React.FC = () => {
 					title: "Why is it important to rely on independent validators?",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Validator Alliance",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/partners/day-2/validator-alliance.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-10",
@@ -434,7 +434,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-2/mercurio.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -453,7 +453,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-2/momentum.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -471,7 +471,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-2/supercolony.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -490,7 +490,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-2/hacker.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -558,7 +558,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-3/Independent-Reserve-Logotype.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -566,17 +566,17 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-3",
 					time: "11:25 - 11:55",
-					title: "A native jurisdiction built for Web3",
+					title: "Polkadot, breaking down silos",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
-						name: "Alessandro Palombo",
+						name: "Irina Karagyaur",
 						image: {
 							src: "/assets/program-section/speaker-placeholder.png",
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-3/web3-foundation.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -594,7 +594,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-3/Subsquid.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -612,7 +612,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-3/logo-polkadot.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -620,20 +620,20 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-6",
 					time: "13:05 - 13:30",
-					title: "TBC",
+					title: "IMP Metaverse Protocol - base of the real metaverse",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
-					// speaker: {
-					// 	name: "John Doe",
-					// 	image: {
-					// 		src: "/assets/program-section/speaker-placeholder.png",
-					// 		alt: "speaker placeholder",
-					// 	},
-					// 	logo: {
-					// 		src: "/assets/program-section/partner-placeholder.png",
-					// 		alt: "partner placeholder",
-					// 	},
-					// },
+					speaker: {
+						name: "Markian Ivanichok",
+						image: {
+							src: "/assets/program-section/speaker-placeholder.png",
+							alt: "speaker placeholder",
+						},
+						logo: {
+							src: "/assets/partners/day-2/supercolony.png",
+							alt: "partner placeholder",
+						},
+					},
 				},
 				{
 					id: "item-7",
@@ -667,7 +667,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-3/Tapio-tn-23.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -685,7 +685,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-3/web3-foundation.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -721,7 +721,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-3/bitgreen_white.38aed596.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -739,7 +739,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-3/t3rn.png",
 							alt: "partner placeholder",
 						},
 					},
@@ -757,7 +757,7 @@ const ProgramSection: React.FC = () => {
 							alt: "speaker placeholder",
 						},
 						logo: {
-							src: "/assets/program-section/partner-placeholder.png",
+							src: "/assets/partners/day-3/hydra.png",
 							alt: "partner placeholder",
 						},
 					},

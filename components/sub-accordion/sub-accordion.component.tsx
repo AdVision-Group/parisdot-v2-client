@@ -73,8 +73,8 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 											style={{
 												objectFit: "contain",
 											}}
-											// width={"100%"}
-											// height={"5rem"}
+											width={"80%"}
+											// height={"5"}
 										/>
 									</figure>
 									<h4>{item.speaker.name}</h4>
