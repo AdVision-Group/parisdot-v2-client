@@ -28,6 +28,8 @@ interface IProps {
 			logo: {
 				src: string
 				alt: string
+				width?: string | number
+				height?: string | number
 			}
 		}
 	}
@@ -73,8 +75,17 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 											style={{
 												objectFit: "contain",
 											}}
-											// width={"100%"}
-											// height={"5rem"}
+											width={
+												item.speaker.logo.width
+													? item.speaker.logo.width
+													: "80%"
+											}
+											height={
+												item.speaker.logo.width
+													? item.speaker.logo.width
+													: "auto"
+											}
+											// height={"5"}
 										/>
 									</figure>
 									<h4>{item.speaker.name}</h4>
@@ -201,7 +212,7 @@ const AccordionContainer = styled(motion.div)`
 `
 
 const ContentContainer = styled(motion.div)<IAccordionContainerProps>`
-	cursor: pointer;
+	/* cursor: pointer; */
 	flex-grow: 1;
 	padding: 1.2rem 2rem 1rem;
 	border: 2px solid
@@ -318,7 +329,9 @@ const SpeakerContainer = styled.div<IAccordionContainerProps>`
 	}
 
 	.icon {
-		display: flex;
+		/* display: flex; */
+		display: none;
+
 		align-items: center;
 		justify-content: center;
 		font-size: 3.5rem;

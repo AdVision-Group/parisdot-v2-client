@@ -101,6 +101,7 @@ const AccordionContainer = styled(motion.div)<IAccordionContainerProps>`
 
 const AccordionHeading = styled(motion.div)<IAccordionContainerProps>`
 	display: flex;
+	gap: 1rem;
 	align-items: center;
 	justify-content: space-between;
 	padding: 1.2rem 1.5rem 1.2rem 2rem;
