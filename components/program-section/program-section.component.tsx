@@ -222,7 +222,7 @@ const ProgramSection: React.FC = () => {
 				},
 				{
 					id: "item-8",
-					time: "18:00 - 19:00",
+					time: "18:30 - 19:00",
 					title: "Closing",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
@@ -777,7 +777,25 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-14",
 					time: "18:15 - 18:30",
-					title: "Thank you from the organizers",
+					title: `Thank you from the organizers - "Salle du Haut"`,
+					description:
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					// speaker: {
+					// 	name: "John Doe",
+					// 	image: {
+					// 		src: "/assets/program-section/speaker-placeholder.png",
+					// 		alt: "speaker placeholder",
+					// 	},
+					// 	logo: {
+					// 		src: "/assets/program-section/partner-placeholder.png",
+					// 		alt: "partner placeholder",
+					// 	},
+					// },
+				},
+				{
+					id: "item-14",
+					time: "18:30 - 20:00",
+					title: `Closing cocktail - "Salle du Haut"`,
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {

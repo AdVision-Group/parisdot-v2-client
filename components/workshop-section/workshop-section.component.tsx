@@ -16,8 +16,8 @@ const WorkshopSection: React.FC = () => {
 			items: [
 				{
 					id: "item-1",
-					time: "11:00 - 17:00",
-					title: "Workshop",
+					time: "11:00 - 18:15",
+					title: `"Salle du haut"`,
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 				},
@@ -30,8 +30,8 @@ const WorkshopSection: React.FC = () => {
 			items: [
 				{
 					id: "item-1",
-					time: "11:00 - 17:00",
-					title: "Workshop",
+					time: "11:00 - 16:30",
+					title: `"Salle du haut"`,
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 				},
