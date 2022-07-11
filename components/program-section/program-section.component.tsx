@@ -11,7 +11,7 @@ const ProgramSection: React.FC = () => {
 	const [program, setProgram] = useState([
 		{
 			id: "day-1",
-			title: "Program for 19.07",
+			title: "Program for 19.07 - AUDITORIUM",
 			showContent: false,
 			items: [
 				{
@@ -242,7 +242,7 @@ const ProgramSection: React.FC = () => {
 		},
 		{
 			id: "day-2",
-			title: "Program for 20.07",
+			title: "Program for 20.07 - AUDITORIUM",
 			showContent: false,
 			items: [
 				{
@@ -533,7 +533,7 @@ const ProgramSection: React.FC = () => {
 		},
 		{
 			id: "day-3",
-			title: "Program for 21.07",
+			title: "Program for 21.07 - AUDITORIUM",
 			showContent: false,
 			items: [
 				{
