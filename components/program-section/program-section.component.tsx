@@ -89,7 +89,7 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-5",
 					time: "15:15 - 15:45",
-					title: "What does it mean to be decentralized?",
+					title: "What it means to be decentralized in Web3.0?",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
@@ -136,7 +136,7 @@ const ProgramSection: React.FC = () => {
 							alt: "Zoe Meckbach",
 						},
 						logo: {
-							src: "/assets/partners/day-1/logo-polkadot.png",
+							src: "/assets/partners/day-1/phala-network.png",
 							alt: "Polkadot",
 						},
 					},
@@ -144,7 +144,7 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-8",
 					time: "16:40 - 17:05",
-					title: "Moonbeam",
+					title: "Moonbeam and interoperability",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
@@ -370,7 +370,7 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-8",
 					time: "14:30 - 14:55",
-					title: "The problems with metaverses today and how to solve them",
+					title: "The biggest problems with metaverses today and how to solve them!",
 					description:
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
@@ -394,8 +394,8 @@ const ProgramSection: React.FC = () => {
 					speaker: {
 						name: "Validator Alliance",
 						image: {
-							src: "/assets/program-section/speaker-placeholder.png",
-							alt: "speaker placeholder",
+							src: "/assets/speakers/validator-v.png",
+							alt: "Validator Alliance",
 						},
 						logo: {
 							src: "/assets/partners/day-2/validator-alliance.png",
@@ -490,7 +490,7 @@ const ProgramSection: React.FC = () => {
 							alt: "Yev",
 						},
 						logo: {
-							src: "/assets/partners/day-2/hacker.png",
+							src: "/assets/partners/day-2/hacken.png",
 							alt: "Hacken",
 						},
 					},
@@ -558,7 +558,7 @@ const ProgramSection: React.FC = () => {
 							alt: "Antoine Estienne",
 						},
 						logo: {
-							src: "/assets/partners/day-2/Independant.png",
+							src: "/assets/partners/day-2/independent.png",
 							alt: "Independant",
 						},
 					},
@@ -594,7 +594,7 @@ const ProgramSection: React.FC = () => {
 							alt: "Massimo",
 						},
 						logo: {
-							src: "/assets/partners/day-3/Subsquid.png",
+							src: "/assets/partners/day-3/subsquid.png",
 							alt: "Subsquid",
 						},
 					},
@@ -608,11 +608,11 @@ const ProgramSection: React.FC = () => {
 					speaker: {
 						name: "Zoé Meckbach",
 						image: {
-							src: "/assets/speakers/zoe-meckbech.png",
+							src: "/assets/speakers/zoe-meckbach.png",
 							alt: "Zoe Meckbech",
 						},
 						logo: {
-							src: "/assets/partners/day-3/logo-polkadot.png",
+							src: "/assets/partners/day-1/logo-polkadot.png",
 							alt: "Polkadot",
 						},
 					},
@@ -667,7 +667,7 @@ const ProgramSection: React.FC = () => {
 							alt: "Terry",
 						},
 						logo: {
-							src: "/assets/partners/day-3/Tapio-tn-23.png",
+							src: "/assets/partners/day-3/tapio-protocol.png",
 							alt: "Nuts",
 						},
 					},
@@ -753,11 +753,11 @@ const ProgramSection: React.FC = () => {
 					speaker: {
 						name: "HydraDX",
 						image: {
-							src: "/assets/program-section/speaker-placeholder.png",
-							alt: "speaker placeholder",
+							src: "/assets/partners/day-3/hydra.png",
+							alt: "HydraDX",
 						},
 						logo: {
-							src: "/assets/partners/day-3/hydra.png",
+							src: "/assets/partners/day-3/hydra-dx.png",
 							alt: "partner placeholder",
 						},
 					},
