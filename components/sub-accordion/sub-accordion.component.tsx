@@ -212,7 +212,7 @@ const AccordionContainer = styled(motion.div)`
 `
 
 const ContentContainer = styled(motion.div)<IAccordionContainerProps>`
-	cursor: pointer;
+	/* cursor: pointer; */
 	flex-grow: 1;
 	padding: 1.2rem 2rem 1rem;
 	border: 2px solid
