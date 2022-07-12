@@ -72,7 +72,7 @@ const HeroSection: React.FC = () => {
 		// 	width: 50,
 		// },
 		{
-			src: "/assets/partners/phala-network-logo-white.png",
+		src: "/assets/partners/phala-network-logo-white.png",
 			alt: "phala network logo",
 			href: "https://www.phala.network/en/",
 			width: 90,
@@ -102,8 +102,14 @@ const HeroSection: React.FC = () => {
 			src: "/assets/partners/Blockchain-HEC.png",
 			alt: "Blockchain-HEC logo",
 			href: "https://blockchain-hec.com/",
-			width: 200,
+			width: 150,
 			// height: 60,
+		},
+		{
+			src: "/assets/partners/ternoa.png",
+			alt: "ternoa logo",
+			href: "https://www.ternoa.com/",
+			width: 25,
 		},
 		{
 			src: "/assets/partners/narative.png",
@@ -111,6 +117,16 @@ const HeroSection: React.FC = () => {
 			href: "#",
 			width: 130,
 		},
+
+	]
+	const mediaSponsors = [
+		{
+			src: "/assets/partners/future_of_money.png",
+			alt: "cointelegraph logo",
+			href: "https://cointelegraph.com/",
+			width: 150,
+			// height: 60,
+		}
 	]
 	return (
 		<React.Fragment>
@@ -299,8 +315,21 @@ const HeroSection: React.FC = () => {
 							delay: 5,
 						}}
 					>
-						supported by
 					</MorePartners>
+					<SupportersAndMediaContainer>
+						<HeadingAndContentContainer>
+							<SupportersAndMediaHeading
+							initial={{
+								opacity: 0,
+							}}
+							animate={{
+								opacity: 1,
+							}}
+							transition={{
+								duration: 1,
+								delay: 5,
+							}}
+							>Supported By</SupportersAndMediaHeading>
 					<Partners2Container
 						initial={{
 							opacity: 0,
@@ -343,6 +372,63 @@ const HeroSection: React.FC = () => {
 							</a>
 						))}
 					</Partners2Container>
+					</HeadingAndContentContainer>
+					<HeadingAndContentContainer>
+						<SupportersAndMediaHeading
+						initial={{
+							opacity: 0,
+						}}
+						animate={{
+							opacity: 1,
+						}}
+						transition={{
+							duration: 1,
+							delay: 5,
+						}}>Media Sponsors</SupportersAndMediaHeading>
+					<Partners2Container
+						initial={{
+							opacity: 0,
+						}}
+						animate={{
+							opacity: 1,
+						}}
+						transition={{
+							duration: 1,
+							delay: 5,
+						}}
+					>
+						{mediaSponsors.map((partner, idx) => (
+							<a
+								key={idx}
+								href={partner.href}
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<motion.figure
+									whileHover={{
+										scale: 1.05,
+									}}
+									whileTap={{
+										scale: 0.97,
+									}}
+								>
+									<Image
+										src={partner.src}
+										alt="ilu"
+										effect="blur"
+										style={{
+											objectFit: "contain",
+										}}
+										width={partner.width || 150}
+										// height={partner.height || 40}
+										height={60}
+									/>
+								</motion.figure>
+							</a>
+						))}
+					</Partners2Container>
+					</HeadingAndContentContainer>
+					</SupportersAndMediaContainer>		
 				</div>
 			</SectionContainer>
 		</React.Fragment>
@@ -350,6 +436,36 @@ const HeroSection: React.FC = () => {
 }
 
 export default HeroSection
+
+const SupportersAndMediaContainer = styled.div`
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	@media (max-width: ${props => props.theme.breakpoints.sm}) {
+		flex-direction: column;
+	}
+`
+
+const SupportersAndMediaHeading = styled(motion.h3)`
+	font-size: 3rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 1rem;`
+
+const HeadingAndContentContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 37%;
+	margin: 1rem;
+	justify-content: center;
+	@media (max-width: ${props => props.theme.breakpoints.sm}) {
+		width: 100%;
+		margin: 2rem;
+	}
+`
 
 const Ilustration = styled.figure`
 	position: absolute;

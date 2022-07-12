@@ -44,7 +44,7 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 
 	return (
 		<AccordionContainer>
-			<AccordionHeading onClick={() => {}}>
+			<AccordionHeading onClick={() => {toggle()}}>
 				<TimeContainer>
 					<p>{item.time}</p>
 				</TimeContainer>
@@ -212,7 +212,7 @@ const AccordionContainer = styled(motion.div)`
 `
 
 const ContentContainer = styled(motion.div)<IAccordionContainerProps>`
-	/* cursor: pointer; */
+	cursor: pointer;
 	flex-grow: 1;
 	padding: 1.2rem 2rem 1rem;
 	border: 2px solid
@@ -222,6 +222,8 @@ const ContentContainer = styled(motion.div)<IAccordionContainerProps>`
 				: theme.colors.accordionIconBackgroundColor};
 	border-radius: ${({ isActive }) => (isActive ? "3rem" : "3rem")};
 	max-width: 76rem;
+	transition: all 0.3s ease-in-out;
+	&:hover { border: 2px solid #CD0F89; }
 
 	@media all and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
 		padding: 1.3rem 2.5rem 1rem;
@@ -329,8 +331,7 @@ const SpeakerContainer = styled.div<IAccordionContainerProps>`
 	}
 
 	.icon {
-		/* display: flex; */
-		display: none;
+		display: flex;
 
 		align-items: center;
 		justify-content: center;

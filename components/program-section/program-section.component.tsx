@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 // Components
 import Image from "../image/image.component"
 import Accordion from "../accordion/accordion.component"
+import SpeakerDescription from "../speaker-description/speaker-description.component";
 
 const ProgramSection: React.FC = () => {
 	const [program, setProgram] = useState([
@@ -19,7 +20,7 @@ const ProgramSection: React.FC = () => {
 					time: "12:00 - 14:00",
 					title: "Registration - pillar room",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+						"<p>abc</p>",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -55,7 +56,12 @@ const ProgramSection: React.FC = () => {
 					time: "14:15 - 14:45",
 					title: "Blockchains that evolve with your business",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+						<SpeakerDescription speakerBio="Gautam leads the Solution Delivery team at Parity, where he focuses on designing decentralized solutions for the Polkadot ecosystem. Before joining the team at Parity, he built Cloud and IoT solutions at Microsoft.
+
+						For the last several years, Gautam has been working on blockchain solutions and their integration with hyper-scale systems. He has a deep understanding of the decentralized stack, cloud solutions architecture, and distributed systems design.
+						
+						Gautam has also co-authored a book on blockchain fundamentals, Beginning Blockchain" talkDescription="Blockchains are hard to change. There are a lot of times when we need to fix bugs, change business logic and rules, and implement new features even for blockchain solutions. While the data and state on the blockchain must be immutable, the logic to store and process data should be easy to upgrade.
+						When you build your blockchain with Substrate, you can upgrade it as per your needs, at any time. The talk give a deep dive of how Substrate-based blockchains improve efficiency and reduce effort in maintaining large scale decentralized solutions."/>,
 					speaker: {
 						name: "Gautam Dhameja",
 						image: {
@@ -595,8 +601,7 @@ const ProgramSection: React.FC = () => {
 					id: "item-4",
 					time: "11:55 - 12:20",
 					title: "Subsquid, indexing for the Web3's mass adoption",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					description: <div>Som <h2>na</h2> <h1>haku</h1></div>,
 					speaker: {
 						name: "Massimo",
 						image: {
