@@ -899,6 +899,8 @@ const ProgramSection: React.FC = () => {
 						openEventDayProgram={openEventDayProgram}
 						key={idx}
 						idx={idx}
+						//TODO: fix 
+						//@ts-ignore
 						item={day}
 						dayID={day.id}
 					/>
