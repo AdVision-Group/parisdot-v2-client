@@ -394,7 +394,7 @@ const HeroSection: React.FC = () => {
 						}}
 						transition={{
 							duration: 1,
-							delay: 5,
+							delay: 6.2,
 						}}
 					>
 						{mediaSponsors.map((partner, idx) => (

@@ -12,13 +12,23 @@ const SpeakerDescription: React.FC<IProps> = ({ talkDescription, speakerBio, spe
 	return <div>
 		 {talkDescription && (<div>
 		<h3>Presentation description</h3>
-		<p>{talkDescription}</p></div>)}
+		<DescriptionParagraph>{talkDescription}</DescriptionParagraph></div>)}
 		
 		{speakerBio && (<div>
 		<h3>{speakerName ?? "Speaker bio"}</h3>
-		<p>{speakerBio}</p>
+		<DescriptionParagraph>{speakerBio}</DescriptionParagraph>
 		</div>)}
 		</div>
 }
+
+const DescriptionParagraph = styled.p`
+	a {
+		color: #FF008C;
+		transition: color 0.2s ease-in-out;
+	}
+	a:hover {
+		color: white;
+	}
+	`
 
 export default SpeakerDescription

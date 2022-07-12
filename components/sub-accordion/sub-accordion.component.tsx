@@ -94,9 +94,10 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 									</figure>
 									<h4>{item.speaker.name}</h4>
 								</div>
+								{item.description && 
 								<figure className="icon">
 									{showContent ? <FiArrowUpCircle /> : <FiArrowRightCircle />}
-								</figure>
+								</figure>}
 							</SpeakerContainer>
 						)}
 					</FlexContainer>
