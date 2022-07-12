@@ -52,7 +52,7 @@ const ProgramSection: React.FC = () => {
 					time: "14:15 - 14:45",
 					title: "Blockchains That Evolve with Your Business",
 					description:
-						<SpeakerDescription speakerBio="Gautam leads the Solution Delivery team at Parity, where he focuses on designing decentralized solutions for the Polkadot ecosystem. Before joining the team at Parity, he built Cloud and IoT solutions at Microsoft. For the last several years, Gautam has been working on blockchain solutions and their integration with hyper-scale systems. He has a deep understanding of the decentralized stack, cloud solutions architecture, and distributed systems design. Gautam has also co-authored a book on blockchain fundamentals, Beginning Blockchain" talkDescription="Blockchains are hard to change. There are a lot of times when we need to fix bugs, change business logic and rules, and implement new features even for blockchain solutions. While the data and state on the blockchain must be immutable, the logic to store and process data should be easy to upgrade.
+						<SpeakerDescription speakerBio={<div>Gautam leads the Solution Delivery team at Parity, where he focuses on designing decentralized solutions for the Polkadot ecosystem. Before joining the team at Parity, he built Cloud and IoT solutions at Microsoft. For the last several years, Gautam has been working on blockchain solutions and their integration with hyper-scale systems. He has a deep understanding of the decentralized stack, cloud solutions architecture, and distributed systems design. Gautam has also co-authored a book on blockchain fundamentals, <a href="https://link.springer.com/book/10.1007/978-1-4842-3444-0">Beginning Blockchain</a></div>} talkDescription="Blockchains are hard to change. There are a lot of times when we need to fix bugs, change business logic and rules, and implement new features even for blockchain solutions. While the data and state on the blockchain must be immutable, the logic to store and process data should be easy to upgrade.
 						When you build your blockchain with Substrate, you can upgrade it as per your needs, at any time. The talk give a deep dive of how Substrate-based blockchains improve efficiency and reduce effort in maintaining large scale decentralized solutions."/>,
 					speaker: {
 						name: "Gautam Dhameja",
@@ -71,7 +71,7 @@ const ProgramSection: React.FC = () => {
 					time: "14:45 - 15:15",
 					title: "Mojo over Ego: decentralizing leadership",
 					description:
-					<SpeakerDescription speakerBio="{ or }Lisa Wocken is a founding member of talentDAO and an educator in the DAO ecosystem. She holds a PhD in Organizational Leadership, is an Adjunct Instructor at the University of Minnesota, and has 15 years experience in enterprise leadership development within large corporate contexts. Her research on DAO leadership and start-up, Bolster Leadership, focus on developing leaders for the more decentralized future." talkDescription=""/>,
+					<SpeakerDescription speakerBio="Lisa Wocken is a founding member of talentDAO and an educator in the DAO ecosystem. She holds a PhD in Organizational Leadership, is an Adjunct Instructor at the University of Minnesota, and has 15 years experience in enterprise leadership development within large corporate contexts. Her research on DAO leadership and start-up, Bolster Leadership, focus on developing leaders for the more decentralized future."/>,
 					speaker: {
 						name: "Lisa Wocken",
 						image: {
@@ -267,7 +267,7 @@ const ProgramSection: React.FC = () => {
 					time: "11:00 - 11:25",
 					title: "On-chain privacy in Polkadot and web3",
 					description:
-					<SpeakerDescription speakerBio="Kenny Li is the cofounder of Manta Network, the privacy hub for web3. Kenny is a tech entrepreneur. He started his first company in the cloud computing space. He started in the blockchain space through bitcoin mining, has since built various projects, and contributed to thought leadership and content. He received his MBA from MIT Sloan in 2020, where he was the teaching assistant for the cryptocurrency and blockchain courses. In his free time, Kenny enjoys spending time with his dog and exercising." talkDescription=""/>,
+					<SpeakerDescription speakerBio="Kenny Li is the cofounder of Manta Network, the privacy hub for web3. Kenny is a tech entrepreneur. He started his first company in the cloud computing space. He started in the blockchain space through bitcoin mining, has since built various projects, and contributed to thought leadership and content. He received his MBA from MIT Sloan in 2020, where he was the teaching assistant for the cryptocurrency and blockchain courses. In his free time, Kenny enjoys spending time with his dog and exercising."/>,
 					speaker: {
 						name: "Kenny Li",
 						image: {
@@ -345,7 +345,7 @@ const ProgramSection: React.FC = () => {
 					funding, managing and coaching high growth companies and innovative
 					teams. Practicing in various sectors with an emphasis on financial
 					technology companies and customer relationship strategy.
-					" talkDescription=""/>,
+					"/>,
 					speaker: {
 						name: "Alain Parize",
 						image: {
@@ -381,7 +381,7 @@ const ProgramSection: React.FC = () => {
 					title:
 						"The biggest problems with metaverses today and how to solve them!",
 					description:
-					<SpeakerDescription speakerBio="" talkDescription="Metaverses have many problems. Critical, dealbreaking, web2 problems. Most people don't care. I will tell you why they should, and will also outline bulletproof solutions to these problems."/>,
+					<SpeakerDescription talkDescription="Metaverses have many problems. Critical, dealbreaking, web2 problems. Most people don't care. I will tell you why they should, and will also outline bulletproof solutions to these problems."/>,
 					speaker: {
 						name: "Bruno Skvorc",
 						image: {
