@@ -54,13 +54,9 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-3",
 					time: "14:15 - 14:45",
-					title: "Blockchains that evolve with your business",
+					title: "Blockchains That Evolve with Your Business",
 					description:
-						<SpeakerDescription speakerBio="Gautam leads the Solution Delivery team at Parity, where he focuses on designing decentralized solutions for the Polkadot ecosystem. Before joining the team at Parity, he built Cloud and IoT solutions at Microsoft.
-
-						For the last several years, Gautam has been working on blockchain solutions and their integration with hyper-scale systems. He has a deep understanding of the decentralized stack, cloud solutions architecture, and distributed systems design.
-						
-						Gautam has also co-authored a book on blockchain fundamentals, Beginning Blockchain" talkDescription="Blockchains are hard to change. There are a lot of times when we need to fix bugs, change business logic and rules, and implement new features even for blockchain solutions. While the data and state on the blockchain must be immutable, the logic to store and process data should be easy to upgrade.
+						<SpeakerDescription speakerBio="Gautam leads the Solution Delivery team at Parity, where he focuses on designing decentralized solutions for the Polkadot ecosystem. Before joining the team at Parity, he built Cloud and IoT solutions at Microsoft. For the last several years, Gautam has been working on blockchain solutions and their integration with hyper-scale systems. He has a deep understanding of the decentralized stack, cloud solutions architecture, and distributed systems design. Gautam has also co-authored a book on blockchain fundamentals, Beginning Blockchain" talkDescription="Blockchains are hard to change. There are a lot of times when we need to fix bugs, change business logic and rules, and implement new features even for blockchain solutions. While the data and state on the blockchain must be immutable, the logic to store and process data should be easy to upgrade.
 						When you build your blockchain with Substrate, you can upgrade it as per your needs, at any time. The talk give a deep dive of how Substrate-based blockchains improve efficiency and reduce effort in maintaining large scale decentralized solutions."/>,
 					speaker: {
 						name: "Gautam Dhameja",
@@ -79,7 +75,7 @@ const ProgramSection: React.FC = () => {
 					time: "14:45 - 15:15",
 					title: "Mojo over Ego: decentralizing leadership",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="{ or }Lisa Wocken is a founding member of talentDAO and an educator in the DAO ecosystem. She holds a PhD in Organizational Leadership, is an Adjunct Instructor at the University of Minnesota, and has 15 years experience in enterprise leadership development within large corporate contexts. Her research on DAO leadership and start-up, Bolster Leadership, focus on developing leaders for the more decentralized future." talkDescription=""/>,
 					speaker: {
 						name: "Lisa Wocken",
 						image: {
@@ -97,7 +93,7 @@ const ProgramSection: React.FC = () => {
 					time: "15:15 - 15:45",
 					title: "What it means to be decentralized in Web3.0?",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio=" Hoon is the CTO of Astar Network. He won the gold prize in the Korean Olympiad in Informatics National competition at age 16. He received the outstanding thesis award for his undergraduate thesis on using interoperable blockchains for corporate asset management. He first met Sota in 2019, who was creating a parachain for Polkadot network. Now, Hoon is working with Astar network to make Web3 the frontier for creative and innovative minds worldwide." talkDescription="We see a lot of people talk about governance and decentralization in the blockchain space, but why? This talk will cover the benefits of decentralization, compare and contrast with centralized models, what it takes to make a decentralized network, and how this could change the future of the internet."/>,
 					speaker: {
 						name: "Hoon Kim",
 						image: {
@@ -136,7 +132,7 @@ const ProgramSection: React.FC = () => {
 					time: "16:15 - 16:40",
 					title: "Intro to Phala World - Gamifying the Meta-Soul",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					"",
 					speaker: {
 						name: "Zoe Meckbach",
 						image: {
@@ -152,9 +148,9 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-8",
 					time: "16:40 - 17:05",
-					title: "Moonbeam and interoperability",
+					title: "Moonbeam in an Interoperable Future",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="Mechanical Eng. with a Ph.D. in Internal Combustion Engines. You might ask yourself, What is this guy doing here? The old saying goes, Choose a job you love and you will never have to work a day in your life. I've been very passionate about blockchain since around 2013, so I decided to switch careers to join something that I believe is part of the future. Since then, I joined the Moonbeam project in June 2020 and have worked in Developer Relations." talkDescription="In this presentation, we'll go over the different interoperability protocols that developers can leverage on Moonbeam to interoperate within and outside the Polkadot Ecosystem. It will provide a high level overview of XCM, and how it can be combined with other interoperability protocols to expand Polkadot to other blockchain ecosystems."/>,
 					speaker: {
 						name: "Alberto",
 						image: {
@@ -170,9 +166,12 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-9",
 					time: "17:05 - 17:30",
-					title: "A Unified Platform For Polkadot’s Technology Stack",
+					title: "Managed services for Web3 builders",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="Matjaž is a seasoned professional with over 20 years of experience in various IT roles. Before stepping up to become Authtrail’s CEO, he held different senior positions at large enterprises, such as Fujitsu and Commvault, where he gained a deep understanding of the value of data. Matjaž leads the Authtrail venture backed by extensive experience in the IT sector and acute interest in distributed business models." talkDescription="The rise of Web3 era, where users are in control, will grow through builders of the Web3 world - developers. Polkadot is one of the key agents that foster Web3 evolution, but to speed up its adoption, we need to decrease Polkadot’s abstraction level and technical entry barrier.
+
+					At Authtrail, we are building a unified gateway to Web3, a complete toolbox that developers can easily use to launch ideas to Web3 using their existing know-how. By compressing functionalities of the parachain verticals and offering managed services in the form of APIs and SDKs, Authtrail will become a go-to place for builders searching for faster development and seamless transition to Web3.
+					"/>,
 					speaker: {
 						name: "Matjaz Sobocan",
 						image: {
@@ -191,7 +190,15 @@ const ProgramSection: React.FC = () => {
 					title:
 						"Restricted delivery of NFT underlying assets to the sole NFT owner: a logion revolutionary capability for safe digital ownership",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="Seasoned software entrepreneur (20+ years of international experience), I'm passionate about people, technology, privacy, open-source, and blockchain. I'm co-founder of logion, the public blockchain infrastructure for safe digital ownership, enabling people to protect the value they create and exchange in the web 3.0 world. logion is the first and only public blockchain where token data can be transformed into certified evidence and tokens are safeguarded by a decentralized network of international Legal Officers. All projects built with the logion infrastructure protect their digital asset holders." talkDescription="Digital Ownership is unsafe.
+					Bitcoin value in lost wallets reaches $140B. Over 80% of NFTs on OpenSea are plagiarized works. Your token underlying asset can disappear overnight by being stored on centralized storage. You will have a certificate of property that is linked to no property at all.
+					The same thing goes with the transaction documentation that proves the authenticity of your ownership and rights.
+					You’ll still “own” the NFT (i.e. the string of numbers and letters that says it belongs to you), but the image itself or any other kind of underlying asset and ownership proofs could disappear.
+					If the NFT is permanent, underlying right proofs and assets are … not.
+					More importantly, as all NFT underlying digital assets are stored on public online storage, the entire world can have and use “your” underlying assets, which you paid for, by acquiring its NFT.
+					And in a digital world, there is no difference between a file and its multiple copies.
+					This situation jeopardizes the core value of the NFT you “own”.
+					"/>,
 					speaker: {
 						name: "Elie Auvray",
 						image: {
@@ -274,7 +281,7 @@ const ProgramSection: React.FC = () => {
 					time: "11:00 - 11:25",
 					title: "On-chain privacy in Polkadot and web3",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="Kenny Li is the cofounder of Manta Network, the privacy hub for web3. Kenny is a tech entrepreneur. He started his first company in the cloud computing space. He started in the blockchain space through bitcoin mining, has since built various projects, and contributed to thought leadership and content. He received his MBA from MIT Sloan in 2020, where he was the teaching assistant for the cryptocurrency and blockchain courses. In his free time, Kenny enjoys spending time with his dog and exercising." talkDescription=""/>,
 					speaker: {
 						name: "Kenny Li",
 						image: {
@@ -290,9 +297,9 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-3",
 					time: "11:25 - 11:55",
-					title: "Importance of light client for decentralization",
+					title: "Light Clients for Unstoppable Apps",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="Radha is the Technical Education Lead at the Web3 Foundation which nurtures technologies and applications in the fields of decentralized web software protocols. Prior to joining, he was a faculty at the Department of Computer Science at University of Vermont and has an MS and PhD in Computer Science from the University at Buffalo, The State University of New York. Radha is excited to put his skills to use for educating professionals and the general public about the vision of Web3 and its technology stack!" talkDescription="In the world of blockchains, the term “light client” is commonly associated with the software that can run on resource constrained environments like browsers and can interact with the blockchain through fully synchronized (RPC) nodes. It is well known that these light clients have to place their trust on third party RPC nodes for querying and/or transacting with the blockchain network. Is it possible to build light clients that can interact with the blockchain network, without forfeiting any of the blockchain security guarantees? What is the state of the art in the space of light clients? What is Substrate Connect? This talk explores these questions in depth and highlights what it takes to build unstoppable apps leveraging the Blockchain technology."/>,
 					speaker: {
 						name: "Radha Dasari",
 						image: {
@@ -309,9 +316,9 @@ const ProgramSection: React.FC = () => {
 					id: "item-4",
 					time: "11:55 - 12:20",
 					title:
-						"Composable’s Cross-chain Virtual Machine (XCVM) is the primary piece of technology that will finally allow for true composability across multiple ecosystems within DeFi, facilitated by its natively cross-chain smart contracts.",
+						"Composable's cross-chain virtual machine (XCVM)",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="Brainjar brings a deep understanding of the blockchain space and a comprehensive vision of cross-chain DeFi. He is focused on researching blockchain infrastructure and relevant trends to advise on Composable’s development and designing products that can best leverage the Composable tech stack. Brainjar writes about the R&D at Composable on Twitter and Medium." talkDescription="The XCVM is the primary technology that will finally allow for true composability across multiple ecosystems within DeFi, facilitated by its natively cross-chain smart contracts."/>,
 					speaker: {
 						name: "0xbrainjar",
 						image: {
@@ -329,7 +336,7 @@ const ProgramSection: React.FC = () => {
 					time: "12:20 - 12:45",
 					title: "Real DeFi with real use cases.",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="Lucas Vogelsang is the CEO and Cofounder at Centrifuge, focusing on bringing Real World Assets to DeFi since the early days of Ethereum. Before diving into crypto in 2017 Lucas has been working at the intersection of tech and business since dropping out of University. He co-founded the Swiss e-commerce startup DeinDeal as it’s CTO. After it’s successful sale, he helped the German startup KaufDA with their international expansion. Lucas spent 6 years in Silicon Valley where he was working at early stage startups including Taulia where he met his Centrifuge cofounders." talkDescription="How do we get to mass adoption of DeFi: A look at what's missing for DeFi to grow beyond its current use case for crypto native assets and become the banking backend for all asset classes."/>,
 					speaker: {
 						name: "LucasVo",
 						image: {
@@ -346,9 +353,13 @@ const ProgramSection: React.FC = () => {
 					id: "item-6",
 					time: "12:45 - 13:10",
 					title:
-						"sTAL, the smart coin for smart people : a new kind of trustable stablecoin for the Polkadot ecosystem and beyond",
+						"sTAL, the Smart coin for Smart people",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="Experienced entrepreneur with a demonstrated history of founding,
+					funding, managing and coaching high growth companies and innovative
+					teams. Practicing in various sectors with an emphasis on financial
+					technology companies and customer relationship strategy.
+					" talkDescription=""/>,
 					speaker: {
 						name: "Alain Parize",
 						image: {
@@ -386,7 +397,7 @@ const ProgramSection: React.FC = () => {
 					title:
 						"The biggest problems with metaverses today and how to solve them!",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="" talkDescription="Metaverses have many problems. Critical, dealbreaking, web2 problems. Most people don't care. I will tell you why they should, and will also outline bulletproof solutions to these problems."/>,
 					speaker: {
 						name: "Bruno Skvorc",
 						image: {
@@ -458,9 +469,9 @@ const ProgramSection: React.FC = () => {
 					id: "item-12",
 					time: "17:00 - 17:25",
 					title:
-						"The Kusamaverse: how it came into existence, how it is going and our hopes for the future of it",
+						"The Kusamaverse - Momentum: an open source, decentralized, user owned metaverse for the Dotsama ecosystem",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="Starting his development journey on a BBC Microcomputer many moons ago, Nic is a UK based game developer who is incredibly passionate about everything to do with the Metaverse and how it will change global collaboration. Spending many years working behind the scenes in Web2, he now finds himself on the Web3 adventure which is bringing fresh life to a stagnant internet.  Nic was the first developer to join Momentum, where he focuses on Unity development" talkDescription="The Kusamaverse is live! A real-time persistent 3D home for the Kusama ecosystem in which you stake, nominate, vote and more. A new way to navigate, connect, contribute to and benefit from the ecosystem. Gather and engage into on and off-chain activities, tailored to collective value creation, build your own social network economy. We give a live demo of Momentum - Kusamaverse and go into the tech and vision behind the product. We share our roadmap and welcome your input in an interactive session."/>,
 					speaker: {
 						name: "Nic Rutherford",
 						image: {
@@ -563,9 +574,9 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-2",
 					time: "11:00 - 11:25",
-					title: "The State of music NFTs in Dotsama",
+					title: "The State of Music NFTs in Dotsama",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="Ex Consensys and Moonbeam, Antoine is now a consultant focused on Ethereum and Dotsama and runs multiple NFT projects on EVM and RMRK" talkDescription="Dotsama is an exciting ecosystem that brings many new features to create and use NFTs. Let's look at what buidlers have been making and the different platforms and standards that will shape the future of Music NFTs on Dotsama."/>,
 					speaker: {
 						name: "Antoine Estienne",
 						image: {
@@ -600,8 +611,9 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-4",
 					time: "11:55 - 12:20",
-					title: "Subsquid, indexing for the Web3's mass adoption",
-					description: <div>Som <h2>na</h2> <h1>haku</h1></div>,
+					title: "Subsquid: indexing for Web3's mass adoption",
+					description: 
+					<SpeakerDescription speakerBio="MsC in Information Engineering, 8+ years experience working as Software Engineer, Data Engineer, Product Manager and now, Developer Advocate. Crypto fan since 2018, working on blockchain for last 6 months" talkDescription="Discussing the necessity of on-chain data indexing and indexing middleware to provide quality of service the great public is used to"/>,
 					speaker: {
 						name: "Massimo",
 						image: {
@@ -673,9 +685,12 @@ const ProgramSection: React.FC = () => {
 					id: "item-8",
 					time: "14:30 - 14:55",
 					title:
-						"Unified liquidity standard for staking and crowdloan derivatives",
+						"Unified Liquidity Standard for Staking and Crowdloan Derivatives",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="" talkDescription="As parachains continue to go live on Polkadot, we are seeing an increasing number of staking and crowdloan derivatives. The primary objective of these derivative solutions is to free up liquidity and increase asset usability. However this also creates a variety of liquidity formats which ultimately causes liquidity silos and low capital efficiency for the network as a whole.   
+ 
+					Tapio Protocol solves this problem by introducing an unified liquidity standard to standardize different formats of staking and crowdloan derivatives without sacrificing the underlying staking yield and crowdloan rewards. tDOT is the first synthetic asset solution that effectively mitigates liquidity fragmentation and serves a common good function to the Polkadot ecosystem.
+					"/>,
 					speaker: {
 						name: "Terry",
 						image: {
@@ -747,7 +762,7 @@ const ProgramSection: React.FC = () => {
 					time: "17:00 - 17:25",
 					title: "Standardizing cross-chain communication",
 					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
+					<SpeakerDescription speakerBio="Jacob has worked full-time in the blockchain space for six years, starting at Lisk, before joining t3rn as the first team member and its Chief Strategy Officer. " talkDescription="The presentation will primarily cover the current state of cross-chain development, explaining trust-free bridging and framing the problem (with examples of hacks); we will then look at the state of the industry, it's search for the next narrative and detail why we believe cross-chain is the next driver for the next blockchain bull cycle. The talk will then provide brief context to what XCM is, before diving into XBI, the XCM based-standard developed by t3rn that makes XCM more seamless to adopt while broadening its utility."/>,
 					speaker: {
 						name: "Jacob Kowalewski",
 						image: {
