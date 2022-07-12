@@ -18,7 +18,7 @@ interface IProps {
 		id: string
 		time: string
 		title: string
-		description: string
+		description?: string
 		speaker?: {
 			name: string
 			image: {
@@ -44,7 +44,11 @@ const SubAccordion: React.FC<IProps> = ({ item }) => {
 
 	return (
 		<AccordionContainer>
-			<AccordionHeading onClick={() => {toggle()}}>
+			<AccordionHeading style={item.description == null ? {pointerEvents:"none"} : {}} onClick={() => {
+				if (item.description != null) {
+					toggle()
+				}
+				}}>
 				<TimeContainer>
 					<p>{item.time}</p>
 				</TimeContainer>

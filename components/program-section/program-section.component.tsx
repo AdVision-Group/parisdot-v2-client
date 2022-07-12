@@ -19,8 +19,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-1",
 					time: "12:00 - 14:00",
 					title: "Registration - pillar room",
-					description:
-						"<p>abc</p>",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -37,8 +35,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-2",
 					time: "14:00 - 14:15",
 					title: "Opening the conference Hello from the organizers",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -113,8 +109,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-6",
 					time: "15:45 - 16:15",
 					title: "Break - pillar room",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -131,8 +125,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-7",
 					time: "16:15 - 16:40",
 					title: "Intro to Phala World - Gamifying the Meta-Soul",
-					description:
-					"",
 					speaker: {
 						name: "Zoe Meckbach",
 						image: {
@@ -217,8 +209,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-11",
 					time: "17:55 - 18:20",
 					title: "Radically open Bitcoin for parachains",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
 						name: "Caroline Mascarin",
 						image: {
@@ -237,8 +227,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-8",
 					time: "18:30 - 18:35",
 					title: "Closing",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "Alberto",
 					// 	image: {
@@ -262,8 +250,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-1",
 					time: "10:30 - 11:00",
 					title: "Coffee, mingling - pillar room",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -377,8 +363,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-7",
 					time: "13:10 - 14:30",
 					title: "Lunch Break (outside)",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -415,8 +399,6 @@ const ProgramSection: React.FC = () => {
 					time: "14:55 - 16:00",
 					title:
 						"Panel + QA: Why is it important to rely on independent validators?",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
 						name: "Validator Alliance",
 						image: {
@@ -433,8 +415,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-10",
 					time: "16:00 - 16:30",
 					title: "Coffee break",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -451,8 +431,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-11",
 					time: "16:30 - 17:00",
 					title: "Crypto regulation, current issues and possible solutions",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
 						name: "Adam Berker",
 						image: {
@@ -488,8 +466,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-13",
 					time: "17:25 - 17:50",
 					title: "Polkadot Alliance, what is it?",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
 						name: "Toma Sadova",
 						image: {
@@ -507,8 +483,6 @@ const ProgramSection: React.FC = () => {
 					time: "17:50 - 18:15",
 					title:
 						"Smart contracts auditing, pen testing, bug bounties… how it is crucial in today's market",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
 						name: "Yev",
 						image: {
@@ -525,8 +499,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-10",
 					time: "18:30 - 18:35",
 					title: "Closing",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -557,8 +529,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-1",
 					time: "10:30 - 11:00",
 					title: "Coffee, mingling - pillar room",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -594,8 +564,6 @@ const ProgramSection: React.FC = () => {
 					time: "11:25 - 11:55",
 					title:
 						"Polkadot & Ethereum: opening up a whole new space for innovation where NFTs will grow up",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
 						name: "Irina Karagyaur",
 						image: {
@@ -631,8 +599,6 @@ const ProgramSection: React.FC = () => {
 					time: "12:20 - 13:05",
 					title:
 						"Panel 2 + QA: The importance of developing the Polkadot community",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
 						name: "Zoé Meckbach",
 						image: {
@@ -649,8 +615,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-6",
 					time: "13:05 - 13:30",
 					title: "IMP Metaverse Protocol - base of the real metaverse",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
 						name: "Markian Ivanichok",
 						image: {
@@ -667,8 +631,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-7",
 					time: "13:30 - 14:30",
 					title: "Lunch break (outside)",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -707,8 +669,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-9",
 					time: "14:55 - 16:00",
 					title: "Panel 3 + QA: Scaling Polkadot education",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
 						name: "Radha Dasari",
 						image: {
@@ -725,8 +685,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-10",
 					time: "16:00 - 16:30",
 					title: "Coffee break - pillar room",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -743,8 +701,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-11",
 					time: "16:30 - 17:00",
 					title: "Carbon credits decoded",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
 						name: "Gilad Goren",
 						image: {
@@ -780,8 +736,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-13",
 					time: "17:25 - 17:50",
 					title: "TBC",
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					speaker: {
 						name: "HydraDX",
 						image: {
@@ -798,8 +752,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-14",
 					time: "18:15 - 18:30",
 					title: `Thank you from the organizers - "Salle du Haut"`,
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
@@ -816,8 +768,6 @@ const ProgramSection: React.FC = () => {
 					id: "item-14",
 					time: "18:30 - 20:00",
 					title: `Closing cocktail - "Salle du Haut"`,
-					description:
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum felis euismod velit dignissim luctus. Aliquam vehicula ligula eu risus gravida tincidunt. In vitae tellus a sem sollicitudin ullamcorper in non quam. Integer maximus, ante non posuere congue, neque est congue sapien, tincidunt lacinia dui mi id leo.",
 					// speaker: {
 					// 	name: "John Doe",
 					// 	image: {
