@@ -63,8 +63,6 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-1/parity.png",
 							alt: "parity",
-							width: 81,
-							height: 37,
 						},
 					},
 				},
