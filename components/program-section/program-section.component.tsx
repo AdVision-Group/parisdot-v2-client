@@ -624,6 +624,10 @@ const ProgramSection: React.FC = () => {
 					id: "item-6",
 					time: "13:05 - 13:30",
 					title: "IMP Metaverse Protocol - base of the real metaverse",
+					description: 
+					<SpeakerDescription speakerName="Markian Ivanichok" speakerBio="I started my engineering careerStats when I was 16. Since then I have dived deeply in both software and hardware. Founded and led a couple of startups.
+					A year and a half ago I founded venture studio called Supercolony. We enabled Wasm smart contracts on Polkadot and co-founded Asylum - a metaverse. With IMP Metaverse protocol we are looking to the job we did with Openbrush/PSP22 but to a more broader metaverse space." talkDescription="Most metaverse projects that we currently see on the market are rather metaverse application/space. 
+					Meanwhile a key aspect of metaverse is connectivity (interoperability) between those spaces. Similarly to internet procol like TCP/IP, IMP protocol sets the foundation for metaverse to work."/>,
 					speaker: {
 						name: "Markian Ivanichok",
 						image: {
