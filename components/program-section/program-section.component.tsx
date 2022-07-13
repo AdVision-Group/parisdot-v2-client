@@ -63,6 +63,8 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-1/parity.png",
 							alt: "parity",
+							width: 81,
+							height: 37,
 						},
 					},
 				},
@@ -99,8 +101,8 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-1/astar.png",
 							alt: "Astar",
-							width: 50,
-							height: 20,
+							width: 33,
+							height: 26,
 						},
 					},
 				},
@@ -200,8 +202,8 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-1/logion.png",
 							alt: "Logion",
-							width: 40,
-							// height: 20,
+							width: 25,
+							height: 30,
 						},
 					},
 				},
@@ -220,8 +222,8 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-1/interlay.png",
 							alt: "Interlay",
-							width: 60,
-							// height: 30,
+							width: 47,
+							height: 33,
 						},
 					},
 				},
@@ -559,7 +561,7 @@ const ProgramSection: React.FC = () => {
 							alt: "Antoine Estienne",
 						},
 						logo: {
-							src: "/assets/partners/day-2/independent.png",
+							src: "/assets/partners/day-3/independent.png",
 							alt: "Independant",
 						},
 					},
