@@ -209,6 +209,8 @@ const ProgramSection: React.FC = () => {
 					id: "item-11",
 					time: "17:55 - 18:20",
 					title: "Radically open Bitcoin for parachains",
+					description:
+					<SpeakerDescription talkDescription="Imagine using your BTC on any blockchain with just 1 click, opening a world of utility for everyone in Web3, from DeFi Degens to DAO Bounty Hunters. This talk is about how Interlay is supporting the future of blockchain interoperability, and why this is the next step to mainstream adoption"/>,
 					speaker: {
 						name: "Caroline Mascarin",
 						image: {
@@ -267,7 +269,7 @@ const ProgramSection: React.FC = () => {
 					time: "11:00 - 11:25",
 					title: "On-chain privacy in Polkadot and web3",
 					description:
-					<SpeakerDescription speakerName="Kenny Li, Manta network/Cofounder" speakerBio="Kenny Li is the cofounder of Manta Network, the privacy hub for web3. Kenny is a tech entrepreneur. He started his first company in the cloud computing space. He started in the blockchain space through bitcoin mining, has since built various projects, and contributed to thought leadership and content. He received his MBA from MIT Sloan in 2020, where he was the teaching assistant for the cryptocurrency and blockchain courses. In his free time, Kenny enjoys spending time with his dog and exercising."/>,
+					<SpeakerDescription talkDescription="The importance of privacy for the scalability and usability of web3" speakerName="Kenny Li, Manta network/Cofounder" speakerBio="Kenny Li is the cofounder of Manta Network, the privacy hub for web3. Kenny is a tech entrepreneur. He started his first company in the cloud computing space. He started in the blockchain space through bitcoin mining, has since built various projects, and contributed to thought leadership and content. He received his MBA from MIT Sloan in 2020, where he was the teaching assistant for the cryptocurrency and blockchain courses. In his free time, Kenny enjoys spending time with his dog and exercising."/>,
 					speaker: {
 						name: "Kenny Li",
 						image: {
@@ -341,7 +343,8 @@ const ProgramSection: React.FC = () => {
 					title:
 						"sTAL, the Smart coin for Smart people",
 					description:
-					<SpeakerDescription speakerName="Alain Parize, Talsafe/Stablecoin designer" speakerBio="Experienced entrepreneur with a demonstrated history of founding,
+					<SpeakerDescription talkDescription="A new kind of trustable stablecoin for the Polkadot ecosystem and
+					beyond" speakerName="Alain Parize, Talsafe/Stablecoin designer" speakerBio="Experienced entrepreneur with a demonstrated history of founding,
 					funding, managing and coaching high growth companies and innovative
 					teams. Practicing in various sectors with an emphasis on financial
 					technology companies and customer relationship strategy.
@@ -381,7 +384,7 @@ const ProgramSection: React.FC = () => {
 					title:
 						"The biggest problems with metaverses today and how to solve them!",
 					description:
-					<SpeakerDescription speakerName="Bruno Skvorc, RMRK/Founder" talkDescription="Metaverses have many problems. Critical, dealbreaking, web2 problems. Most people don't care. I will tell you why they should, and will also outline bulletproof solutions to these problems."/>,
+				    <SpeakerDescription speakerName="Bruno Skvorc" speakerBio={<div>Bruno is the founder of <a href="https://www.rmrk.app/">RMRK.app</a>, the world's most advanced NFT protocol. After a long career in web2 developing web applications and interactive media, he moved into web3 with the advent of Ethereum in 2015. Since then, Bruno has run a fiat-to-crypto on-ramp, has been developing and auditing smart contracts, has been technically educating developers on conferences and online in video and written form, and worked for <a href="https://status.im/">Status</a> on the Ethereum 2.0 project as well as Web3 Foundation on the <a href="https://polkadot.network/">Polkadot</a> and <a href="https://kusama.network/">Kusama</a> projects. Since 2020 he's been working on RMRK full time. In what little free time he has, he enjoys gaming (board and PC/VR), nature, and living vicariously through his daughter</div>} talkDescription="Metaverses have many problems. Critical, dealbreaking, web2 problems. Most people don't care. I will tell you why they should, and will also outline bulletproof solutions to these problems."/>,
 					speaker: {
 						name: "Bruno Skvorc",
 						image: {
@@ -466,6 +469,8 @@ const ProgramSection: React.FC = () => {
 					id: "item-13",
 					time: "17:25 - 17:50",
 					title: "Polkadot Alliance, what is it?",
+					description:
+					<SpeakerDescription speakerName="Toma Sadova" speakerBio={<div>I`m Toma - Market Growth Lead at Supercolony, Product Owner of <a href="https://openbrush.io/">OpenBrush</a>. I started my career when I was 14. Since then, I have gained a lot of experience in IT technologies, management, leadership and crypto. I switched 4 career paths and figured out that blockchain/crypto is my calling! I`m leading more than 4 infrastructure tools for smart contracts, one of the biggest events in Polkadot, and audits on ink!.</div>} talkDescription="Supercolony is going to accelerate the most active key players in the ecosystem and create the next breakthrough, which will speed up the ecosystem growth - Polkadot Alliance. The goal of Polkadot Alliance is to build and give a vision for the whole ecosystem, push processes and free up the right dots. We will talk about it more... in the speech"/>,
 					speaker: {
 						name: "Toma Sadova",
 						image: {
@@ -564,6 +569,8 @@ const ProgramSection: React.FC = () => {
 					time: "11:25 - 11:55",
 					title:
 						"Polkadot & Ethereum: opening up a whole new space for innovation where NFTs will grow up",
+					description: 
+					<SpeakerDescription talkDescription="While Ethereum is in the midst of its trascendental transition, already experts envisage that the upgrades won't be enough to achieve an ideal decentralized Web. Polkadot's Blockchain was created to fill the gaps by deploying the necessary 3rd generation functionalities while collaborating with different blockchains making the decentralized Web3 a reality and give life to NFTs" speakerName="Irina Karagyaur" speakerBio="Irina Karagyaur is the Head of Ecosystem Growth and Business Development at Unique Network, where she leads the business ecosystem growth activities for the organisation. She focuses on establishing strategic partnerships and ecosystem building to enable bridging the off-chain world with the Open Metaverse. She is the Head Ambassador for Western Europe of the Polkadot network, and also London’s Regional Co-Chair to FIBREE (Foundation for International Blockchain and Real Estate Expertise)."/>,
 					speaker: {
 						name: "Irina Karagyaur",
 						image: {
@@ -598,7 +605,7 @@ const ProgramSection: React.FC = () => {
 					id: "item-5",
 					time: "12:20 - 13:05",
 					title:
-						"Panel 2 + QA: The importance of developing the Polkadot community",
+						"Panel 2 + QA: Outside the Polkadot box - how to reach massadoption",
 					speaker: {
 						name: "Zoé Meckbach",
 						image: {
@@ -649,7 +656,7 @@ const ProgramSection: React.FC = () => {
 					title:
 						"Unified Liquidity Standard for Staking and Crowdloan Derivatives",
 					description:
-					<SpeakerDescription speakerName="Terry, Nuts Finace Cofounder / Tapio protocol" speakerBio="" talkDescription="As parachains continue to go live on Polkadot, we are seeing an increasing number of staking and crowdloan derivatives. The primary objective of these derivative solutions is to free up liquidity and increase asset usability. However this also creates a variety of liquidity formats which ultimately causes liquidity silos and low capital efficiency for the network as a whole.   
+					<SpeakerDescription speakerName={<div>Co-founder of <a href="https://nuts.finance/">NUTS Finance</a></div>} speakerBio="Co-founder of NUTS Finance" talkDescription="As parachains continue to go live on Polkadot, we are seeing an increasing number of staking and crowdloan derivatives. The primary objective of these derivative solutions is to free up liquidity and increase asset usability. However this also creates a variety of liquidity formats which ultimately causes liquidity silos and low capital efficiency for the network as a whole.   
  
 					Tapio Protocol solves this problem by introducing an unified liquidity standard to standardize different formats of staking and crowdloan derivatives without sacrificing the underlying staking yield and crowdloan rewards. tDOT is the first synthetic asset solution that effectively mitigates liquidity fragmentation and serves a common good function to the Polkadot ecosystem.
 					"/>,
@@ -701,6 +708,9 @@ const ProgramSection: React.FC = () => {
 					id: "item-11",
 					time: "16:30 - 17:00",
 					title: "Carbon credits decoded",
+					description: <SpeakerDescription talkDescription="Carbon Credits Decoded
+At Polkadot Decoded, Bitgreen announced a partnership with Sequester to enable parachains to convert fees into carbon credits. In this talk, we'll go more in depth on what carbon credits are, the real impact they represent, and how projects can use carbon credits to attract users and build community." speakerName="Gilad Goren" speakerBio="Gilad is Cofounder of Bitgreen and heads Partnerships. Gilad previously founded two sustainable enterprise startups, Raleigh &amp Drake and Only Six Degrees. He holds an Executive MSc Social Business &amp Entrepreneurship from the London School of Economics.
+					"/>,
 					speaker: {
 						name: "Gilad Goren",
 						image: {
