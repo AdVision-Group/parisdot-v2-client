@@ -162,7 +162,7 @@ const ProgramSection: React.FC = () => {
 					time: "17:05 - 17:30",
 					title: "Managed services for Web3 builders",
 					description:
-					<SpeakerDescription speakerName="Matjaž Sobočan, CEO &amp Co-Founder of Authtrail" speakerBio="Matjaž is a seasoned professional with over 20 years of experience in various IT roles. Before stepping up to become Authtrail’s CEO, he held different senior positions at large enterprises, such as Fujitsu and Commvault, where he gained a deep understanding of the value of data. Matjaž leads the Authtrail venture backed by extensive experience in the IT sector and acute interest in distributed business models." talkDescription="The rise of Web3 era, where users are in control, will grow through builders of the Web3 world - developers. Polkadot is one of the key agents that foster Web3 evolution, but to speed up its adoption, we need to decrease Polkadot’s abstraction level and technical entry barrier.
+					<SpeakerDescription speakerName="Matjaž Sobočan, CEO & Co-Founder of Authtrail" speakerBio="Matjaž is a seasoned professional with over 20 years of experience in various IT roles. Before stepping up to become Authtrail’s CEO, he held different senior positions at large enterprises, such as Fujitsu and Commvault, where he gained a deep understanding of the value of data. Matjaž leads the Authtrail venture backed by extensive experience in the IT sector and acute interest in distributed business models." talkDescription="The rise of Web3 era, where users are in control, will grow through builders of the Web3 world - developers. Polkadot is one of the key agents that foster Web3 evolution, but to speed up its adoption, we need to decrease Polkadot’s abstraction level and technical entry barrier.
 
 					At Authtrail, we are building a unified gateway to Web3, a complete toolbox that developers can easily use to launch ideas to Web3 using their existing know-how. By compressing functionalities of the parachain verticals and offering managed services in the form of APIs and SDKs, Authtrail will become a go-to place for builders searching for faster development and seamless transition to Web3.
 					"/>,
@@ -308,7 +308,7 @@ const ProgramSection: React.FC = () => {
 					title:
 						"Composable's cross-chain virtual machine (XCVM)",
 					description:
-					<SpeakerDescription speakerName="0xbrainjar | Founder &amp CEO of Composable Finance" speakerBio="Brainjar brings a deep understanding of the blockchain space and a comprehensive vision of cross-chain DeFi. He is focused on researching blockchain infrastructure and relevant trends to advise on Composable’s development and designing products that can best leverage the Composable tech stack. Brainjar writes about the R&D at Composable on Twitter and Medium." talkDescription="The XCVM is the primary technology that will finally allow for true composability across multiple ecosystems within DeFi, facilitated by its natively cross-chain smart contracts."/>,
+					<SpeakerDescription speakerName="0xbrainjar | Founder & CEO of Composable Finance" speakerBio="Brainjar brings a deep understanding of the blockchain space and a comprehensive vision of cross-chain DeFi. He is focused on researching blockchain infrastructure and relevant trends to advise on Composable’s development and designing products that can best leverage the Composable tech stack. Brainjar writes about the R&D at Composable on Twitter and Medium." talkDescription="The XCVM is the primary technology that will finally allow for true composability across multiple ecosystems within DeFi, facilitated by its natively cross-chain smart contracts."/>,
 					speaker: {
 						name: "0xbrainjar",
 						image: {
@@ -714,7 +714,7 @@ const ProgramSection: React.FC = () => {
 					time: "16:30 - 17:00",
 					title: "Carbon credits decoded",
 					description: <SpeakerDescription talkDescription="Carbon Credits Decoded
-At Polkadot Decoded, Bitgreen announced a partnership with Sequester to enable parachains to convert fees into carbon credits. In this talk, we'll go more in depth on what carbon credits are, the real impact they represent, and how projects can use carbon credits to attract users and build community." speakerName="Gilad Goren" speakerBio="Gilad is Cofounder of Bitgreen and heads Partnerships. Gilad previously founded two sustainable enterprise startups, Raleigh &amp Drake and Only Six Degrees. He holds an Executive MSc Social Business &amp Entrepreneurship from the London School of Economics.
+At Polkadot Decoded, Bitgreen announced a partnership with Sequester to enable parachains to convert fees into carbon credits. In this talk, we'll go more in depth on what carbon credits are, the real impact they represent, and how projects can use carbon credits to attract users and build community." speakerName="Gilad Goren" speakerBio="Gilad is Cofounder of Bitgreen and heads Partnerships. Gilad previously founded two sustainable enterprise startups, Raleigh & Drake and Only Six Degrees. He holds an Executive MSc Social Business and Entrepreneurship from the London School of Economics.
 					"/>,
 					speaker: {
 						name: "Gilad Goren",
