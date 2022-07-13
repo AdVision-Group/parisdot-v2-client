@@ -345,8 +345,8 @@ const ProgramSection: React.FC = () => {
 					title:
 						"sTAL, the Smart coin for Smart people",
 					description:
-					<SpeakerDescription talkDescription="A new kind of trustable stablecoin for the Polkadot ecosystem and
-					beyond" speakerName="Alain Parize, Talsafe/Stablecoin designer" speakerBio="Experienced entrepreneur with a demonstrated history of founding,
+					<SpeakerDescription speakerName="Alain Parize, Talsafe/Stablecoin designer" talkDescription="A new kind of trustable stablecoin for the Polkadot ecosystem and
+					beyond" speakerBio="Experienced entrepreneur with a demonstrated history of founding,
 					funding, managing and coaching high growth companies and innovative
 					teams. Practicing in various sectors with an emphasis on financial
 					technology companies and customer relationship strategy.
