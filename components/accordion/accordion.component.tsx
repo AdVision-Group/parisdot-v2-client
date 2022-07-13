@@ -20,7 +20,7 @@ interface IProps {
 			id: string
 			time: string
 			title: string
-			description: string
+			description?: string
 		}[]
 		showContent: boolean
 	}
