@@ -662,7 +662,7 @@ const ProgramSection: React.FC = () => {
 					title:
 						"Unified Liquidity Standard for Staking and Crowdloan Derivatives",
 					description:
-					<SpeakerDescription speakerName="Co-founder of NUTS Finance" speakerBio="Co-founder of NUTS Finance" talkDescription="As parachains continue to go live on Polkadot, we are seeing an increasing number of staking and crowdloan derivatives. The primary objective of these derivative solutions is to free up liquidity and increase asset usability. However this also creates a variety of liquidity formats which ultimately causes liquidity silos and low capital efficiency for the network as a whole.   
+					<SpeakerDescription speakerName="Terry Lam, Co-founder of NUTS Finance" speakerBio="Co-founder of NUTS Finance" talkDescription="As parachains continue to go live on Polkadot, we are seeing an increasing number of staking and crowdloan derivatives. The primary objective of these derivative solutions is to free up liquidity and increase asset usability. However this also creates a variety of liquidity formats which ultimately causes liquidity silos and low capital efficiency for the network as a whole.   
  Tapio Protocol solves this problem by introducing an unified liquidity standard to standardize different formats of staking and crowdloan derivatives without sacrificing the underlying staking yield and crowdloan rewards. tDOT is the first synthetic asset solution that effectively mitigates liquidity fragmentation and serves a common good function to the Polkadot ecosystem.
 					"/>,
 					speaker: {
