@@ -223,7 +223,7 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-1/pendulum.png",
 							alt: "Pendulum",
-							width: 47,
+							width: 100,
 							height: 33,
 						},
 					},
