@@ -225,7 +225,7 @@ const HeroSection: React.FC = () => {
 						delay: 2,
 					}}
 				>
-					3 days of conference and workshops sessions organized by some of the
+					3 days of conference and workshop sessions sessions organized by some of the
 					leading projects of the Polkadot and Kusama ecosystems.
 				</Description>
 
