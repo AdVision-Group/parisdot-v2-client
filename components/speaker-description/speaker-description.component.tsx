@@ -11,7 +11,7 @@ interface IProps {
 const SpeakerDescription: React.FC<IProps> = ({ talkDescription, speakerBio, speakerName }) => {
 	return <div>
 		 {talkDescription && (<div>
-		<h3>Presentation description</h3>
+		<h3>Details</h3>
 		<DescriptionParagraph>{talkDescription}</DescriptionParagraph></div>)}
 		
 		{speakerBio && (<div>
