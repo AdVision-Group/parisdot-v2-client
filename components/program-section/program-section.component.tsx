@@ -404,6 +404,7 @@ const ProgramSection: React.FC = () => {
 					time: "14:55 - 16:00",
 					title:
 						"Panel + QA: Why is it important to rely on independent validators?",
+					description: <SpeakerDescription speakerName="Participants" speakerBio="Will Pankiewicz (Parity), bLd Nodes / Jimmy Tudeski / Skynode (Validator Alliance), Ioannis (Stake Baby) + guests"/>,
 					speaker: {
 						name: "Validator Alliance",
 						image: {
