@@ -468,6 +468,7 @@ const ProgramSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-2/momentum.png",
 							alt: "Momentum",
+							width: "60",
 						},
 					},
 				},
