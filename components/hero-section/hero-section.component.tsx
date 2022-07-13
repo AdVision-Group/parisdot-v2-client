@@ -114,7 +114,7 @@ const HeroSection: React.FC = () => {
 		{
 			src: "/assets/partners/narative.png",
 			alt: "narative logo",
-			href: "#",
+			href: "https://www.narative.io/",
 			width: 130,
 		},
 
