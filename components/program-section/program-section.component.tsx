@@ -127,6 +127,7 @@ const ProgramSection: React.FC = () => {
 					id: "item-7",
 					time: "16:15 - 16:40",
 					title: "Intro to Phala World - Gamifying the Meta-Soul",
+					description: <SpeakerDescription talkDescription="I will introduce PhalaWorld, the new gamification layer for the Phala community. In PhalaWorld, users are able to gain attributes by contributing to the Phala community, such as delegating, voting, tweeting."/>,
 					speaker: {
 						name: "Zoe Meckbach",
 						image: {
@@ -135,7 +136,7 @@ const ProgramSection: React.FC = () => {
 						},
 						logo: {
 							src: "/assets/partners/day-1/phala-network.png",
-							alt: "Polkadot",
+							alt: "Phala",
 						},
 					},
 				},
