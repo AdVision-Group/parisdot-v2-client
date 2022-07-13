@@ -211,18 +211,18 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-11",
 					time: "17:55 - 18:20",
-					title: "Radically open Bitcoin for parachains",
+					title: "Forex Markets and Stable Coins on Pendulum",
 					description:
-					<SpeakerDescription talkDescription="Imagine using your BTC on any blockchain with just 1 click, opening a world of utility for everyone in Web3, from DeFi Degens to DAO Bounty Hunters. This talk is about how Interlay is supporting the future of blockchain interoperability, and why this is the next step to mainstream adoption"/>,
+					<SpeakerDescription talkDescription="Pendulum is a parachain project whose vision is to connect fiat networks with the DeFi ecosystem. As a main hub for stable coins it will connect to other blockchains through the unified Spacewalk bridge that is trust-minimized and decentralized. Pendulum is the foundational layer for a rich ecosystem of forex markets and ground-breaking automated market makers optimized for fiat."/>,
 					speaker: {
-						name: "Caroline Mascarin",
+						name: "Dr. Torsten Stüber",
 						image: {
-							src: "/assets/speakers/caroline-mascarin.png",
-							alt: "Caroline Mascarin",
+							src: "/assets/speakers/torn-stuber.png",
+							alt: "Dr. Torsten Stuber",
 						},
 						logo: {
-							src: "/assets/partners/day-1/interlay.png",
-							alt: "Interlay",
+							src: "/assets/partners/day-1/pendulum.png",
+							alt: "Pendulum",
 							width: 47,
 							height: 33,
 						},
@@ -437,7 +437,9 @@ const ProgramSection: React.FC = () => {
 				{
 					id: "item-11",
 					time: "16:30 - 17:00",
-					title: "Crypto regulation, current issues and possible solutions",
+					title: "Crypto Regulation: Current Issues and Possible Solutions",
+					description: <SpeakerDescription speakerName="Adam Berker, Senior Legal Counsel" talkDescription="Over the past year, the world has seen rapid growth in the cryptocurrency market. The total volume of their capitalization in December 2021 reached 2.3 trillion US dollars, corresponding to approximately 1% of global financial assets.
+					Today the market continues to develop rapidly, acquiring new forms and solving new problems. The crypto community, in turn, is also gaining momentum and proliferating. What's next? Crypto regulation is just around the corner. The regulator is in a hurry to form a regulatory framework for the cryptocurrency market before it harms the financial system. With growing regulatory pressure on crypto exchanges, DeFi, stablecoins and even NFT projects, crypto companies must figure out how to adapt to changing circumstances." speakerBio="A qualified international lawyer with skills in cryptocurrency, anti-money laundering, blockchain regulations, corporate, trade, tax and intellectual property law areas. Has extensive experience in providing full legal support to the holding company with subsidiaries in 4 jurisdictions for conducting its activity in the EU, UK, US, Latin America, Africa and Asia."/>,
 					speaker: {
 						name: "Adam Berker",
 						image: {
