@@ -124,15 +124,11 @@ const HeroSection: React.FC = () => {
 			src: "/assets/partners/future_of_money.png",
 			alt: "cointelegraph logo",
 			href: "https://cointelegraph.com/",
-			width: 150,
-			// height: 60,
 		},
 		{
 			src: "/assets/partners/journal.png",
 			alt: "journal logo",
 			href: "https://journalducoin.com/",
-			width: 150,
-			// height: 60,
 		}
 	]
 	return (
