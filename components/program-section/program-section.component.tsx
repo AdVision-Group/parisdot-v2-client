@@ -211,7 +211,7 @@ const ProgramSection: React.FC = () => {
 					time: "17:55 - 18:20",
 					title: "Forex Markets and Stable Coins on Pendulum",
 					description:
-					<SpeakerDescription talkDescription="Pendulum is a parachain project whose vision is to connect fiat networks with the DeFi ecosystem. As a main hub for stable coins it will connect to other blockchains through the unified Spacewalk bridge that is trust-minimized and decentralized. Pendulum is the foundational layer for a rich ecosystem of forex markets and ground-breaking automated market makers optimized for fiat."/>,
+					<SpeakerDescription speakerName="Dr. Torsten Stüber, Pendulum" speakerBio="Torsten Stüber has been a researcher in Computer Linguistics and Machine Learning and holds a PhD in Computer Science. He co-founded multiple tech startups and became interested in the exciting possibilities and challenges of blockchain technology. He joined SatoshiPay as CTO, a company that pioneered blockchain-based payment solutions. He is the CTO of Pendulum, a Polkadot parachain project that connects fiat networks to the Defi ecosystem." talkDescription="Pendulum is a parachain project whose vision is to connect fiat networks with the DeFi ecosystem. As a main hub for stable coins it will connect to other blockchains through the unified Spacewalk bridge that is trust-minimized and decentralized. Pendulum is the foundational layer for a rich ecosystem of forex markets and ground-breaking automated market makers optimized for fiat."/>,
 					speaker: {
 						name: "Dr. Torsten Stüber",
 						image: {
