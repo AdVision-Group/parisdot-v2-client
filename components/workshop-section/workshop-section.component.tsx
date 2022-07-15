@@ -16,8 +16,19 @@ const WorkshopSection: React.FC = () => {
 			items: [
 				{
 					id: "item-1",
-					time: "11:00 - 18:15",
-					title: `Workshop`,
+					time: "11.00 - 12.30",
+					title: `RMRK use cases and building cross-chain compatible composable advanced NFTs`,
+					speaker: {
+						name: "Bruno Skvorc",
+						image: {
+							src: "/assets/speakers/bruno-skvorc.png",
+							alt: "Bruno Skvorc",
+						},
+						logo: {
+							src: "/assets/partners/day-2/rmrk.png",
+							alt: "RMR",
+						},
+					},
 				},
 			],
 		},
