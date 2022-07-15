@@ -105,6 +105,8 @@ const WorkshopSection: React.FC = () => {
 						logo: {
 							src: "/assets/partners/day-1/logion.png",
 							alt: "Logion",
+							width: 25,
+							height: 30,
 						},
 					},
 				},
