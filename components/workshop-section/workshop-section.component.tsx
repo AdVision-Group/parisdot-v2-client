@@ -75,12 +75,6 @@ const WorkshopSection: React.FC = () => {
 					id: "item-1",
 					time: "11.00 - 12.00",
 					title: `Introducing Ternoa hackathon: the best place to mint your first nft!`,
-					speaker: {
-						logo: {
-							src: "/assets/partners/ternoa.png",
-							alt: "Ternoa",
-						},
-					},
 				},
 				{
 					id: "item-2",
