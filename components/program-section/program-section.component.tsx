@@ -491,7 +491,8 @@ const ProgramSection: React.FC = () => {
 					id: "item-14",
 					time: "17:50 - 18:15",
 					title:
-						"Smart contracts auditing, pen testing, bug bounties… how it is crucial in today's market",
+						"Staying secure in Web 3.0",
+					description: <SpeakerDescription speakerName="Yevheniia Broshevan" talkDescription="Cybersecurity is one of the major risks for Web 3.0 projects. That’s why project owners should be proactive on this matter. The talk will cover basic steps for founders to do to be able to minimize risks of being hacked: security-first mindset, internal security, external audits, bug bounty and insurance. It includes tips on how to integrate security into a product at its early stage and how to develop the security of a project as a whole (web, mobile, dApps, infrastructure, operations, protocol). As a result, cybersecurity should be treated as an attractive investment rather than business costs with a clear understanding of how to be ready for an external security audit." speakerBio="Yevheniia Broshevan is the co-founder and CBDO at Hacken, a leading Web 3.0 cybersecurity company. Yevheniia is responsible for establishing partnership relationships with industry players and coordinating the work with clients. She is a Certified Ethical Hacker with >10 years of expertise in cybersecurity and a recognized female tech leader."/>,
 					speaker: {
 						name: "Yev",
 						image: {
