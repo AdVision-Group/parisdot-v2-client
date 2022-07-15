@@ -53,7 +53,7 @@ const WorkshopSection: React.FC = () => {
 					speaker: {
 						name: "Pierre Ossun",
 						image: {
-							src: "/assets/speakers/piere-ossun.png",
+							src: "/assets/speakers/pierre-ossun.png",
 							alt: "Pierre Ossun",
 						},
 						logo: {
