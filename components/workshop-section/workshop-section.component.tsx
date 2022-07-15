@@ -53,12 +53,14 @@ const WorkshopSection: React.FC = () => {
 					speaker: {
 						name: "Pierre Ossun",
 						image: {
-							src: "/assets/speakers/piere-ossun.png",
+							src: "/assets/speakers/pierre-ossun.png",
 							alt: "Pierre Ossun",
 						},
 						logo: {
 							src: "/assets/partners/day-1/astar.png",
 							alt: "Astar",
+							width: 33,
+							height: 26,
 						},
 					},
 				},
