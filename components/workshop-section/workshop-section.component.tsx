@@ -16,8 +16,53 @@ const WorkshopSection: React.FC = () => {
 			items: [
 				{
 					id: "item-1",
-					time: "11:00 - 18:15",
-					title: `Workshop`,
+					time: "11.00 - 12.30",
+					title: `RMRK use cases and building cross-chain compatible composable advanced NFTs`,
+					speaker: {
+						name: "Bruno Skvorc",
+						image: {
+							src: "/assets/speakers/bruno-skvorc.png",
+							alt: "Bruno Skvorc",
+						},
+						logo: {
+							src: "/assets/partners/day-2/rmrk.png",
+							alt: "RMR",
+						},
+					},
+				},
+				{
+					id: "item-2",
+					time: "14.00 - 15.30",
+					title: `Remote Execution with XCM`,
+					speaker: {
+						name: "Kevin Neilson",
+						image: {
+							src: "/assets/speakers/kevin-neilson.png",
+							alt: "Kevin Neilson",
+						},
+						logo: {
+							src: "/assets/partners/day-1/moonbeam.png",
+							alt: "Moonbeam",
+						},
+					},
+				},
+				{
+					id: "item-3",
+					time: "16.30 - 18.00",
+					title: `Polkadot Next-Gen Smart Contract on Astar: Build a WASM on-chain voting protocol`,
+					speaker: {
+						name: "Pierre Ossun",
+						image: {
+							src: "/assets/speakers/piere-ossun.png",
+							alt: "Pierre Ossun",
+						},
+						logo: {
+							src: "/assets/partners/day-1/astar.png",
+							alt: "Astar",
+							width: 33,
+							height: 26,
+						},
+					},
 				},
 			],
 		},
@@ -28,8 +73,42 @@ const WorkshopSection: React.FC = () => {
 			items: [
 				{
 					id: "item-1",
-					time: "11:00 - 16:30",
-					title: `Workshop`,
+					time: "11.00 - 12.00",
+					title: `Introducing Ternoa hackathon: the best place to mint your first nft!`,
+				},
+				{
+					id: "item-2",
+					time: "13.00 - 14.30",
+					title: `How to build a verifier from scratch with KILT Protocol`,
+					speaker: {
+						name: "Tino Rusch",
+						image: {
+							src: "/assets/speakers/tino-rusch.png",
+							alt: "Tino Rusch",
+						},
+						logo: {
+							src: "/assets/partners/day-1/kilt.png",
+							alt: "Kilt",
+						},
+					},
+				},
+				{
+					id: "item-3",
+					time: "15.00 - 16.30",
+					title: `logion as a Claim Attestation Platform using KILT Protocol as an example`,
+					speaker: {
+						name: "Gerard Dethier",
+						image: {
+							src: "/assets/speakers/gerard-dethier.png",
+							alt: "Gerard Dethier",
+						},
+						logo: {
+							src: "/assets/partners/day-1/logion.png",
+							alt: "Logion",
+							width: 25,
+							height: 30,
+						},
+					},
 				},
 			],
 		},
