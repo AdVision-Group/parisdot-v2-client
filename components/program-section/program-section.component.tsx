@@ -755,10 +755,10 @@ At Polkadot Decoded, Bitgreen announced a partnership with Sequester to enable p
 					time: "17:25 - 17:50",
 					title: "How to (not) build a parachain",
 					speaker: {
-						name: "HydraDX",
+						name: "Jakub Greguš",
 						image: {
 							src: "/assets/speakers/jakub-gregus.png",
-							alt: "HydraDX",
+							alt: "Jakub Greguš",
 						},
 						logo: {
 							src: "/assets/partners/day-3/hydra-dx.png",
