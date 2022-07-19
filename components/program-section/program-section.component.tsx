@@ -753,16 +753,16 @@ At Polkadot Decoded, Bitgreen announced a partnership with Sequester to enable p
 				{
 					id: "item-13",
 					time: "17:25 - 17:50",
-					title: "TBC",
+					title: "How to (not) build a parachain",
 					speaker: {
 						name: "HydraDX",
 						image: {
-							src: "/assets/partners/day-3/hydra.png",
+							src: "/assets/speakers/jakub-gregus.png",
 							alt: "HydraDX",
 						},
 						logo: {
 							src: "/assets/partners/day-3/hydra-dx.png",
-							alt: "partner placeholder",
+							alt: "HydraDX",
 						},
 					},
 				},
